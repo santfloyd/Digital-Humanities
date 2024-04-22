@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCH_Presunciones" rendition="tei:teisimple" xml:lang="en">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Presunciones (DCH)</title>
+                <author>Francisco Cuena Boy</author>
+                <editor role="#scholarly">María del Pilar Mejía Quiroga</editor>
+                <editor role="#technical">Santiago Ortiz</editor>
+            </titleStmt>
+            <editionStmt>
+
+                <edition n="1.0.0"><date type="digitizedEd" when="2021-02-20">2021-05-20</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:id="pubstmt-publisher"> <orgName>Max Planck Institute for Legal History and Legal Theory</orgName> <ref type="url" target="http://www.rg.mpg.de/">http://www.rg.mpg.de/</ref> </publisher>
+                <distributor xml:id="pubstmt-distributor"> <orgName>Max Planck Institute for Legal History and Legal Theory</orgName> <ref type="url" target="http://www.rg.mpg.de/">http://www.rg.mpg.de/</ref> </distributor>
+                <pubPlace role="digitizedEd" xml:id="pubstmt-pubplace"> Frankfurt am Main, Germany </pubPlace>
+                <availability xml:id="pubstmt-availability">
+                    <licence target="https://creativecommons.org/licenses/by/4.0" n="cc-by"> <p xml:id="p_ffjaztskfd">This work or content, respectively, was created for the Max Planck Institute for Legal History and Legal Theory, Frankfurt/M., and is licensed under the terms of a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</ref>.</p> </licence>
+                </availability>
+                <date type="digitizedEd" when="2021-02-20">2021-05-20</date>
+            </publicationStmt>
+            <seriesStmt xml:id="seriesStmt">
+                <title level="s">Historical Dictionary of Canon Law in Hispanic America and the Philippines, 16th -18th century (DCH)</title>
+                <title level="j">Max Planck Institute for European Legal History Research Paper Series No. 2019-06</title>
+                <editor xml:id="TD"> <persName ref="gnd:1028938721" full="yes"> <surname full="yes">Duve</surname>, <forename full="yes">Thomas</forename> </persName> </editor>
+                <editor xml:id="MPMQ"> <persName> <surname full="yes">Mejía Quiroga</surname>, <forename full="yes">María del Pilar</forename> </persName> </editor>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Written by Francisco Cuena Boy</p>
+                <p>Este artículo forma parte del Diccionario Histórico de Derecho Canónico en Hispanoamérica y Filipinas (S. XVI-XVIII) que prepara el Max-Planck-Institut für europäische Rechtsgeschichte, cuyos adelantos se pueden ver en la página Web: <ref source="https://dch.hypotheses.org">https://dch.hypotheses.org.</ref></p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+
+
+            <change when="2021-02-20" who="Santiago Alejandro Ortiz Hernández">Initial Encoding <date>2021-05-20</date></change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head type="main">Presunciones (DCH)<note n="*" place="end" xml:id="footnote-DCH">Este artículo forma parte del Diccionario Histórico de Derecho Canónico en Hispanoamérica y Filipinas (S. XVI-XVIII) que prepara el Max-Planck-Institut für europäische Rechtsgeschichte, cuyos adelantos se pueden ver en la página Web: <ref target="https://dch.hypotheses.org"/>.</note>*</head>
+                <p>Francisco Cuena Boy<note n="**" place="end" xml:id="footnote-author">Universidad de Cantabria.</note>*</p>
+            </div>
+            <div n="1">
+                <head>1. Introducción</head>
+                <p>De un modo muy general, la presunción se puede caracterizar como un tipo de razonamiento lógico dirigido a establecer la existencia de un hecho dudoso y controvertido deduciéndola de otro u otros hechos ciertos y conocidos por la relación que guarda usualmente con ellos; el conocimiento que resulta de ella no es seguro sino sólo verosímil, y tampoco es definitivo puesto que se desvanece ante la verdad. En el derecho canónico, con total claridad desde las <bibl type="book">Decretales de Gregorio IX</bibl>, la regulación de las presunciones las configura como una institución bien caracterizada y en estrecha relación con la regulación de la prueba y los medios de prueba, lo que subraya su naturaleza procesal.<note n="1" place="bottom" xml:id="footnote-127">Scavo Lombardo (1986), pág. 317; Pedrelli (2002), pág. 715.</note> </p>
+                <p>El recurso a presunciones para probar hechos dudosos, es decir, para producir el grado de certeza suficiente en relación con hechos que no se pueden averiguar de forma directa, viene avalado por el célebre juicio de <name type="person">Salomón</name>: el rey, teniendo que decidir un pleito entre dos mujeres, el hijo de una de las cuales había muerto, supo averiguar quién era la verdadera madre del niño vivo basándose en la violenta presunción del amor maternal hacia los hijos.<note n="2" place="bottom" xml:id="footnote-126">1 Reyes 3, 16-28.</note> Significativamente, el suceso se convierte en el segundo canon del título <bibl type="book">De praesumptionibus</bibl> de las <bibl type="book">Decretales</bibl> y también es recordado en la <bibl type="book">ley de Partidas</bibl> que explica <quote xml:lang="la">“quantas maneras son de prueva”</quote> para autorizar con tan ilustre precedente esa <quote xml:lang="es-ES">“otra natura de provar, a que llaman presumpcion”</quote>.<note n="3" place="bottom" xml:id="footnote-125">X.2.23.2, Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechasa que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 8 Quantas maneras son de prueua.</note> </p>
+                <p>En estas páginas trataremos de exponer una síntesis del tema conforme al esquema siguiente: el desarrollo histórico de la materia de las presunciones desde el derecho romano hasta su sistematización definitiva en los grandes manuales de derecho canónico de comienzos del siglo XVIII; la noción técnica de presunción y sus elementos, insistiendo en la delimitación frente a la <rs xml:lang="la">fictio iuris</rs> y frente a otras manifestaciones del razonamiento presuntivo; las clases de presunciones, el valor probatorio de cada una y su relación con la carga de la prueba; y una referencia al amplio conjunto de reglas prácticas, construidas principalmente por la doctrina, acerca del uso de las presunciones. Los dos apartados finales comprenderán un repaso del uso de las presunciones y el razonamiento presuntivo en <name type="place">Indias</name> y un escueto balance bibliográfico.</p>
+            </div>
+            <div n="2">
+                <head>2. Desarrollo histórico</head>
+                <p>Al margen de sus raíces en el ámbito de la retórica greco-romana –en relación con la distinción propuesta por <name type="person">Aristóteles</name> entre <rs xml:lang="grc">πίστεις ἄτεχνοι</rs> y <rs xml:lang="grc">πίστεις ἔντεχνοι</rs> (<foreign xml:lang="la">probationes</foreign> inartificales y artificiales en la terminología de <name type="person">Quintiliano</name>)–, y dado, por otra parte, que su utilización en el derecho romano clásico no resulta pacífica,<note n="4" place="bottom" xml:id="footnote-124">Con la casi sola excepción de la praesumptio Muciana, según la cual, los bienes de la mujer casada cuyo origen no puede probarse de otra manera se deben considerar procedentes a viro aut qui in potestate eius esset: Dig. 24.1.51, Cod. Iust. 5.16.6.1; vid. Scacchetti (2002), pág. 347.</note> el origen de las presunciones en sentido técnico-jurídico se puede situar en el derecho romano postclásico en conexión con la regulación de la carga de la prueba; será entonces cuando algunas reglas que para los clásicos eran de carácter meramente interpretativo y de derecho material se conviertan en auténticas presunciones legales relacionadas con la distribución de la carga de la prueba y ubicadas, por tanto, en el ámbito procesal. Con todo, más allá de este vínculo tardío con el sistema de la prueba legal o tasada, confirmado por el título 22.3 <rs xml:lang="la">De probationibus et praesumptionibus</rs> del <bibl type="book">Digesto</bibl>, el derecho romano justinianeo no llegó a elaborar una teoría general acerca de las presunciones, habiéndole faltado un concepto unitario basado en la identidad de naturaleza de todas ellas y una clara clasificación; así, por ejemplo, sólo los glosadores empiezan a hablar de <rs xml:lang="la">praesumptio iuris</rs> y a distinguir dentro de ella entre <rs xml:lang="la">praesumptio iuris tantum</rs> y <rs xml:lang="la">praesumptio iuris et de iure</rs>, idea, la de esta última, ajena por lo demás a las fuentes romanas. Por otra parte, aunque la rúbrica del título 22.3 del <bibl type="book">Digesto</bibl> sugiere que la presunción se concebía como una especie del género prueba, lo cierto es que en las fuentes justinianeas el significado técnico predominante de <rs xml:lang="la">praesumere</rs> es el de <quote xml:lang="es-ES">“admitir sin necesidad de prueba”</quote>, lo que parece traslucir un concepto de <rs xml:lang="la">praesumptio</rs> que la considera a modo de un <quote xml:lang="es-ES">“subrogado o sustituto de la prueba”</quote>.<note n="5" place="bottom" xml:id="footnote-123">Sobre las presunciones en el derecho romano, vid. Motzenbäcker (1958), págs. 3-44; Labandeira (1967), págs. 23-29; Reggi (1986), págs. 255-260: Kaser-Hackl (1996), págs. 598-599; Sánchez-Gil (2006), págs. 11-27; Hubert (2009), págs. 14-27: retórica, 27-38: derecho. La concepción de las presunciones como sub­rogado de la prueba deriva del principio retórico plus valent argumenta quam testes: Rosoni(1995), pág. 219.</note> </p>
+                <p>La formulación de una teoría general sobre las presunciones se debe básicamente al derecho canónico histórico. No tanto, sin embargo, a la legislación –que se limita a incorporar las presunciones del <bibl type="book">Corpus Iuris Civilis</bibl>, añadiendo otras análogas– cuanto a la doctrina de la parte final de la <date from="0400" to="1500">Edad Media</date> y de la <date from="1500" to="1800">Edad Moderna</date>, o sea, a los decretistas, los decretalistas y los manualistas; todo ello sin olvidar las aportaciones de los legistas, fruto de la influencia recíproca entre el derecho civil y el derecho canónico que caracteriza a toda esta época.<note n="6" place="bottom" xml:id="footnote-122">Sobre estos desarrollos, vid. Labandeira (1967), págs. 30-37: legislación, 38-45: doctrina; Gouron (1999), passim; Hubert (2009), págs. 41-62; Fiori (2009), passim; la exposición más extensa es con mucho la de Motzenbäcker (1958), págs. 44-229.</note> </p>
+                <p>En líneas muy generales, la evolución aludida fue como sigue: en el <bibl type="book">Decretum Gratiani praesumptio</bibl> y suspicio son conceptos aún no jurídicos que se utilizan en oposición al de prueba, aunque los decretistas (<name type="person">Stephan de Tournai, Hugucio</name>) empiezan ya a distinguir entre <rs xml:lang="la">praesumptio hominis</rs>(o <foreign xml:lang="la">facti</foreign>) y <rs xml:lang="la">praesumptio iuris</rs> y a clasificar las presunciones por su fuerza probatoria.<note n="7" place="bottom" xml:id="footnote-121">Motzenbäcker (1958), págs. 84-86: Decretum Gratiani, 90: Tournai, 117-122: Hugucio; Labandeira (1967), págs. 30-31; Hubert (2009) págs. 41-45.</note> En las <bibl type="book">Decretales</bibl> no hay todavía una doctrina general sobre la presunción, pero la figura es recibida dentro del sistema probatorio mediante la inserción de un título específico <bibl type="book">De praesumptionibus</bibl>, el 23 del libro segundo;<note n="8" place="bottom" xml:id="footnote-120">Motzenbäcker (1958), págs. 134-135; Labandeira (1967), págs. 31-34; Hubert (2009), págs. 45-46.</note> en el <bibl type="book">Liber Sextus</bibl> las presunciones tienen el valor de probatio semiplena, una consideración que se extiende a las pocas reglas del apéndice <bibl subtype="book_chapter">De regulis iuris</bibl> directamente relacionadas con la materia; por su lado, <bibl type="book">las Clementinas </bibl> y las <bibl type="book">Extravagantes</bibl> suponen un retroceso respecto del sentido técnico-jurídico de <rs xml:lang="la">praesumere</rs> y <rs xml:lang="la">praesumptio</rs> en las anteriores colecciones.<note n="9" place="bottom" xml:id="footnote-119">Labandeira (1967), págs. 35-37; Hubert (2009), págs. 46-49.</note> </p>
+                <p>Una verdadera teoría general basada en la definición de los conceptos y la clasificación de las presunciones se desarrolla solamente a partir de los decretalistas. <name type="person">Tancredo de Bolonia</name> acuña una definición –la primera ubicada en el marco del sistema probatorio– que reúne tres elementos fundamentales: toda presunción es prueba (<foreign xml:lang="la">argumentum</foreign>) deducida lógicamente (<foreign xml:lang="la">surgens</foreign>) de un indicio que debe ser probado (<foreign xml:lang="la">ex probatione</foreign>);<note n="10" place="bottom" xml:id="footnote-118">Tancredus Bononiensis, Ordo iudiciarius, Parte III, Tit. 14: De praesumptionibus, § 1: “Praesumptio est argumentum ad credendum unum factum, surgens ex probatione alterius facti”.</note> aportación suya es asimismo la distinción de cuatro especies de presunción: temeraria, <foreign xml:lang="la">probabilis</foreign>, violenta y necessaria; careciendo de cualquier valor la primera, la segunda y la tercera se equiparan respectivamente a la <rs xml:lang="la">praesumptio hominis</rs> o <foreign xml:lang="la">iudicis</foreign> y a la <rs xml:lang="la">praesumptio iuris</rs>, y la cuarta, que no admite prueba en contrario, a la <rs xml:lang="la">praesumptio iuris et de iure</rs>.<note n="11" place="bottom" xml:id="footnote-117">Tancredus Bononiensis, Ordo iudiciarius, Parte III, Tit. 14: De praesumptionibus, § ٢; cfr. Motzenbäcker (1958), págs. 133-134; Campitelli (1986), pág. 262; Pedrelli (2002), págs. 715-716; Fiori (2009), págs. 79-80; Schmoeckel (2016), pág. 503.</note> Por su parte, la definición de <name type="person">Enrique de Segusia</name> <quote xml:lang="es-ES">“el Hostiense”</quote> añade el carácter subsidiario de la presunción (<foreign xml:lang="la">probatione deficiente</foreign>) y apunta tres criterios para su clasificación: la fuerza probatoria, el origen y la relación de tiempo. Entre los legistas destaca <name type="person">Pillius da Medicina</name>, cuya definición acusa el influjo de la teoría retórica de los <foreign xml:lang="la">status causae</foreign><note n="12" place="bottom" xml:id="footnote-116">Libellus Pylei disputatorius, Cod. Vindobonensis lat. 2157, fol. 36r: “Praesumcio est rei, de qua quaeritur, semiplena probatio vel rei dubiae aliquibus signis extrinsecis credulitas seu fides”; cfr. Motzenbäcker (1958), págs. 62-65; Hohmann (1999), págs. 6-8.</note> y que dedica atención sobre todo a la inversión de la carga de la prueba provocada por la presunción. Desde <name type="person">Guido Papa</name> se consolida la tripartición en <rs xml:lang="la">praesumptio hominis</rs>, <foreign xml:lang="la">iuris tantum</foreign> y <foreign xml:lang="la">iuris et de iure</foreign>. A finales del siglo XVI, <name type="person">Jacobo Menoquio</name>,<note n="13" place="bottom" xml:id="footnote-115">Menochius, De praesumptionibus, coniecturis, signis et indiciis commentari; vid. Motzenbäcker (1958), págs. 191-194; Hubert (2009), págs. 55-58. Casi un siglo anterior es el comentario del canonista ferrarense Felinus Sandaeus, Super secundi libri Decretalium titulis: de probationibus, de testibus, de testibus cogendis, de fide instrumentorum, de praesumptionibus; vid. Motzenbäcker (1958), págs. 209-210.</note> consagra definitivamente la citada tripartición y, en cuanto a la fuerza probatoria de la presunción, se inclina por la tesis de la probatio semiplena con la novedad de sustituir, como requisito para llegar a la prueba plena, el juramento purgatorio por la combinación de varias <rs xml:lang="la">praesumptiones iudicis</rs>;<note n="14" place="bottom" xml:id="footnote-114">La admisibilidad de esa combinación depende del objeto y la gravedad del proceso; en los procesos matrimoniales sólo se admite a favor de la confirmación y la validez del matrimonio: Menochius, De praesumptionibus, Libro I, Quaest. 40: Praesumptiones plures, quando et quomodo iungi possunt, ad faciendam plenam et perfectam probationem, nn. 5-6; vid. Hubert (2009), pág. 57.</note> como criterios para la clasificación, además de la fuerza probatoria se fija en la fuente de la que se extraen las presunciones: persona, causa, <foreign xml:lang="la">factum</foreign>, <foreign xml:lang="la">dictum</foreign>, <foreign xml:lang="la">non factum</foreign>, <foreign xml:lang="la">non dictum</foreign>. Por último, ya plenamente desarrollada en sus contenidos principales, la doctrina de las presunciones alcanza una expresión formal impecable en las obras de <foreign xml:lang="la">probati auctores</foreign> como <name type="person">Reiffenstuel</name> y <name type="person">Schmalzgrueber</name>, autores de sendos tratados generales cuya influencia perdura hasta la entrada en vigor del <bibl type="book">Código</bibl> de <date when="1917">1917</date>, y cuya contribución más específica, en lo que toca al tema que nos ocupa, es la sistematización de aquella doctrina al servicio de la práctica.<note n="15" place="bottom" xml:id="footnote-113">Reiffenstuel, Jus Canonicum Universum, Libro II, Tit. 23: De praesumptionibus, Párrafo único: De natura praesumptionis, eius sufficientia ad ferendam sententiam, ac regulis praesumptionum; Schmalzgrueber, Jus Ecclesiaticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 1: De natura, varietate, et effectibus praesumptionum, y § ٢: Regulae praesumptionum; vid. Hubert (2009), págs. 59-62.</note> Organización muy parecida da a la materia <name type="person">Pedro Murillo Velarde</name>, cuyo <bibl type="book">Cursus iuris canonici</bibl>, notable exponente de la misma tradición manualística, nos servirá de guía en los apartados siguientes.<note n="16" place="bottom" xml:id="footnote-112">Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 23: De praesumptionibus, n. 193: Quid sit praesumptio? Et de ea prout est nimia sui confidentia; n. 194: Praesumptio differt a fictione juris, et opinione. Quid, et quotuplex sit indicium?; n. 195: Praesumptio juris tantum et juris et de jure; n. 196: Contra praesumptionem juris, et de jure, an admittatur probatio?; n. 197: De praesumptione hominis, et quando ex ea possit ferri sententia; nn. 198-199: De aliquibus praesumptionibus in specie.</note> </p>
+            </div>
+            <div n="3">
+                <head>3. Praesumptio: definición y delimitación</head>
+                <p>En una primerísima aproximación <name type="person">Murillo</name> explica que praesumptio, unión de <foreign xml:lang="la">prae</foreign> y <foreign xml:lang="la">sumptio</foreign>, significa lo mismo que <quote xml:lang="la">“ante sumptio”</quote>, o sea, la admisión de algo como verdadero antes de que se haya probado legalmente. Pasando de inmediato al plano técnico-jurídico apunta que la presunción es una especie de prueba –<quote xml:lang="es-ES">“otra natura de probar”</quote>:<note n="17" place="bottom" xml:id="footnote-111">Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechas que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 8 Quantas maneras son de prueua. Lo mismo en Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 17: Prueba, n. 3, y Elizondo, Práctica universal, Tomo 1, Juicio ordinario, n. 3 (pág. 124); en Elizondo, Práctica universal, Tomo 4, Juicio ordinario, nn. 31-32 (págs. 232-233), una síntesis de la doctrina general de las presunciones.</note> – y presenta tres definiciones: <quote xml:lang="la">“Praesumptio est ex aliquo antecedenti ad aliquid sibi connexum verisimilis deductio, sive illatio”</quote>, <quote xml:lang="la">“probabilis conjectura ex certo signo proveniens, quae alio non adducto pro veritate habetur”</quote>, <quote xml:lang="la">“cognitio ex circunstantiis resultans”</quote>.<note n="18" place="bottom" xml:id="footnote-110">Traducción: “la presunción es una deducción o conclusión verosímil de algo antecedente a algo conectado con ello”; “ conjetura probable derivada de un signo cierto que a falta de otros se tiene por verdadera”; “conocimiento resultante de las circunstancias”. La primera definición procede de Baldo, la segunda de Alciato, Tractaus de praesumptionibus, In tertiam partem praesumptionum argumenta, n. 1, y la tercera es muy similar a la de Mascardus, De probationibus, Libro I, Quaest. 10, n. 9: “cognitio veritatis ex circunstantiis resultans”; Murillo toma la primera y la tercera de la gl. resumpcion a Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechas que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 8 Quantas maneras son de prueua. Vid. una reseña de definiciones en Oesterle (1959), págs. 396-400, que encuadra la presunción como especie de la conjetura.</note> Dejando a un lado la última, insuficiente en su brevedad, las dos primeras recogen con exactitud los elementos esenciales de cualquier presunción, a saber, el antecedente, indicio o signo cierto del que se parte, el consecuente no probado conectado a él y el propio razonamiento deductivo o conjetural que los relaciona y concluye en la verosimilitud del consecuente.<note n="19" place="bottom" xml:id="footnote-109">Los términos antecedente y consecuente no tienen aquí ninguna connotación cronológica; en efecto, tan posible es presumir ex subsequentibus circa praeterita como ex praeteritis circa futura.</note> El resto del primer parágrafo (el 193) lo dedica a distinguir la presunción del exceso de confianza o <quote xml:lang="es-ES">“confianza excesiva en las propias fuerzas”</quote>, que es tachado de vicio y defecto del intelecto y la voluntad y aun de pecado por <name type="person">santo Tomás</name>.</p>
+                <p>El parágrafo 194 reitera que la presunción es conjetura probable y no mera esperanza. El escalón más bajo de la probabilidad lo representa la duda; en progresión ascendente le siguen la sospecha, la opinión, el juicio y la sentencia, que no es, dice <name type="person">Murillo</name>, sino la expresión exterior del juicio. Significativamente, mientras que el agente de los tres primeros grados es el <quote xml:lang="la">“animus”</quote>, sólo en el cuarto interviene el intelecto.</p>
+                <p>Por otra parte, lo característico de la presunción es que tiene por objeto una <quote xml:lang="es-ES">“cosa dudosa”</quote> asumida como cierta <foreign xml:lang="la">hic et nunc</foreign> pese a que su existencia es meramente probable; en ello se diferencia de la <rs xml:lang="la">fictio iuris</rs>, la cual es siempre <quote xml:lang="es-ES">“de cosa que se sabe inexistente”</quote> y excluye cualquier prueba en contrario.<note n="20" place="bottom" xml:id="footnote-108">En realidad, la ficción es una norma imperativa: Labandeira (1967), págs. 83, 106-107, con referencia a la exposición de Alteserra, De fictionibus iuris tractatus quinque; según Aron (1896), págs. 504-511, en la medida en que no admite prueba en contrario la presunción iuris et de iure tendría esa misma naturaleza; cfr. Oesterle (1948), págs. 417-419; Motzenbäcker (1958), págs. 336-359, esp. 338-342; Campitelli (1986), pág. 263; Rosoni (1995), pág. 157; Martínez de Morentín Llamas (2007), págs. 48-63; Fiori (2009), págs. 75-77; Schmoeckel (2016), pág. 504.</note> Así, por ejemplo, cuando <name type="person">Veracruz</name> explica que la <name type="org">Iglesia</name> tiene por no puesta la <foreign xml:lang="la">condicio impossibilis vel turpe</foreign> bajo la que se hubiere contraído el matrimonio, <quote xml:lang="es-ES">“porque presume que el consentimiento no depende del resultado de tal condición”</quote>,<note n="21" place="bottom" xml:id="footnote-107">Veracruz, Speculum coniugiorum, Parte III, Art. 18: De contractu sub conditione impossibili, pág. 100 C: “quia praesumit, quod consensus ex tali non dependeat condicionis eventu”.</note> quizá no está reflejando una verdadera presunción sino una fictio. Tratando de acotar el concepto, Murillo añade todavía que la presunción, puesto que opera con indicios, tampoco se confunde con la <quote xml:lang="la">“opinio”</quote> fundada en la razón o en la autoridad de los doctores.<note n="22" place="bottom" xml:id="footnote-106">Pero la communis opinio se presume verdadera bajo ciertas reglas: Menochius, De praesumptionibus, Libro II, Praes. 71: “Opinio verior, quae praesumatur, ut eam in ferenda sententia sequatur iudex”; Mascardus, De probationibus, Libro III, Concl. 1144; cfr. Schröder (2001), págs. 47-48.</note> Sin embargo, así como esta indicación se refiere implícitamente a la <rs xml:lang="la">praesumptio hominis</rs>, la definición más exacta de las praesumptiones iuris exige también una delimitación –no ofrecida por Murillo ni por los demás manualistas– frente a otras expresiones de lo que podríamos llamar razonamiento presuntivo, en especial frente al <foreign xml:lang="la">favor iuris</foreign> y frente a las normas de carácter genéricamente interpretativo. En cuanto al <foreign xml:lang="la">favor iuris</foreign> cabe observar que, pese a manifestarse con cierta frecuencia como presunción de validez, tiene más bien consistencia de un principio informador de determinada institución o del conjunto del ordenamiento. En el derecho canónico es muy relevante, por ejemplo, el principio del <foreign xml:lang="la">favor matrimonii</foreign>,<note n="23" place="bottom" xml:id="footnote-105">Cfr. Miguélez Domínguez (1948), págs. 356-361.</note> muchas de cuyas consecuencias no encajan en el esquema de la presunción por mucho que los autores las presenten explícitamente bajo ese aspecto.<note n="24" place="bottom" xml:id="footnote-104">Por ej., Veracruz, Speculum coniugiorum, Parte I, Art. 29: De matrimonio impuberum, pág. 182 C: los impúberes “qui de facto contraxerunt, si matrimonium consumment ante legitimam aetatem, verum est matrimonium consummatum (…) Est enim praesumptio iuris et de iure, contra quam non admittitur probatio in contrario”; en Dig. 40.7.40.7, la frase melius autem est praesumptionem pro statuliberi esse es expresión del favor libertatis presente también, por ejemplo, en Dig. 34.5.10.1.</note> Por su lado, las normas interpretativas, aunque se puedan basar en una presunción vulgar del legislador, en la medida en que imponen una decisión obligatoria ante determinada situación dudosa no son presunciones sino normas de derecho material cuya influencia en la cuestión de la prueba se da sólo de forma indirecta;<note n="25" place="bottom" xml:id="footnote-103">Labandeira 1967), págs. 91-106; sigue este autor la tesis de Hedemann según la cual ningún texto que produzca efectos “en la duda” es presunción, sino regla jurídico-material aunque tenga efectos en el campo probatorio.</note> tal sería el caso, por ejemplo, de la prescripción que, <quote xml:lang="es-ES">“en la duda”</quote> de si está viva una persona, ordena presumir que sí, o bien que no, tomando como divisoria la edad de cien años;<note n="26" place="bottom" xml:id="footnote-102">Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 17: Prueba, n. 22; Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 23: De praesumptionibus, n. 199 (pág. 322): “Nec ullus post centum annos vivere praesumitur”.</note> o el de aquella otra regla según la cual, cuando alguien comete un delito grave en la iglesia o en el cementerio, <quote xml:lang="es-ES">“en caso de duda”</quote> siempre se presume que lo hace buscando la facilidad de retraerse en sagrado, siendo necesario suponerle esa intención para salvaguardar la esencia de la institución de que se trata;<note n="27" place="bottom" xml:id="footnote-101">Vid. X.3.49.10; Hevia Bolaños, Curia Philipica, Parte III: Del juicio criminal, Párrafo 12: Retraídos, n. 20; en el n. 56 se advierte que antes de sacar al retraído el juez secular debe leer y notificar al juez eclesiástico la información y causa por la que le saca, para que “se venza la presunción que hay por la Iglesia, que posee”; cfr. Dellaferrera (2002), págs. 412-413.</note> también, en fin, el caso de la presunción general de buena fe en materia posesoria.<note n="28" place="bottom" xml:id="footnote-100">Vázquez de Menchaca, Illustrium controversiarum, Parte I, Libro II, Cap. 70: De bona fide, n. 2: “Bona autem fides in dubio praesumitur ex communi nostrorum opinione”; Cap. 80: De mala fide, n. 4: “Lex autem in re dubia praesumit possessorem esse bonae fidei”.</note> Dado que la presunción en sentido propio se refiere a hechos que deben ser probados en un proceso, en casos como los indicados sería inexacto ver <foreign xml:lang="la">praesumptiones iuris tantum</foreign>.<note n="29" place="bottom" xml:id="footnote-099">Tampoco en algunas reglas sobre la atribución de competencia: “en caso que se dudare de quien sea la jurisdicción que se controvierte, tienen (sic) a su favor la presunción el que la exercitare en el lugar, o pueblo más vecino”: Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 4: Jurisdicción, n. 33; “contra los casados dos veces en un tiempo se conoce en el Santo Oficio de la Inquisición por la presunción que hay de heregía”: Hevia Bolaños, Curia Philipica, Parte III: Del juicio criminal, Párrafo 2: Fuero eclesiástico, n. 17. En materia de refugio, el juez secular debe leer y notificar al juez eclesiástico la información y causa por la que le saca al retraído para que “se venza la presunción que hay por la Iglesia, que posee”: Hevia Bolaños, Curia Philipica, Parte III: Del juicio criminal, Párrafo 12: Retraídos, n. 56.</note> Más allá de las apariencias, tampoco es presunción la sospecha de haber fornicación, adulterio y pecado mortal en el matrimonio clandestino; el hecho de que el único modo de eliminarla sea la expresión legal del consentimiento, conforme al canon que se refiere a la cuestión, denota en efecto su carácter de norma material.<note n="30" place="bottom" xml:id="footnote-098">Veracruz, Speculum coniugiorum, Parte I, Art. 10: De clandestino matrimonio, pág. 63 C; cfr. C.30 q.5: “aliter vero presumpta non coniugia, sed adulteria, vel contubernia, vel stupra, aut fornicationes potius, quam legitima coniugia esse non dubitate, nisi voluntas propria suffragaverit, et vota succurrerint legitima”.</note> </p>
+                <p>Volviendo a la exposición de Murillo, el indicio es <quote xml:lang="la">“notabile signum alicujus rei, de quae dubitatur, ad cognoscendam veritatem inserviens”</quote>.<note n="31" place="bottom" xml:id="footnote-097">Traducción: “signo visible de alguna cosa, de la que se duda, útil para conocer la verdad”; aunque Murillo no lo indica, la definición procede de Mascardus, De probationibus, Libro I, Quaest. 15, n. 2. Sobre los indicios y sus clasificaciones, vid. Rosoni (1995), págs. 119-153.</note> Según su idoneidad, falibilidad y grado de verosimilitud pueden ser próximos o remotos. Por la fuerza que otorgan a la presunción, otra clasificación los divide en <foreign xml:lang="la">levia</foreign>, <foreign xml:lang="la">gravia</foreign>, <foreign xml:lang="la">graviora</foreign> o <foreign xml:lang="la">vehementia</foreign> y <foreign xml:lang="la">gravissima</foreign> o <foreign xml:lang="la">vehementissima</foreign>; los de la tercera clase proporcionan una cuasi certeza moral que se acerca a la prueba plena a falta sólo de la confesión del reo;<note n="32" place="bottom" xml:id="footnote-096">Murillo se apoya en Dig. 48.18.1.1.</note> los de la cuarta son del todo convincentes y hacen prueba plena. Es de advertir que el indicio no es la presunción sino su necesario punto de partida.<note n="33" place="bottom" xml:id="footnote-095">Schmalzgrueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 1, n. 2: “Differt itaque praesumptio ab indicio, quod indicium sit signum unum, vel plura, ex quibus tanquam ex causa, oritur praesumptio”.</note> La presunción supone un razonamiento conjetural, o sea, un juicio de probabilidad acerca de la conexión del indicio con aquello que, no constando de forma indubitable por otros medios, se puede o se quiere deducir de él. De ahí la importancia de las clasificaciones anteriores y en especial de la segunda por cuanto la fuerza probatoria de la presunción depende, no sólo pero sí principalmente, de los indicios en los que se basa.</p>
+            </div>
+            <div n="4">
+                <head>4. Clasificación de las presunciones</head>
+                <p><rs xml:lang="la">Praesumptio iuris</rs> y <rs xml:lang="la">praesumptio hominis</rs> forman la summa divisio de las presunciones; el criterio que le sirve de base es el origen de la presunción en una norma o en el juez. A su vez, la <rs xml:lang="la">praesumptio iuris</rs> se subdivide en <foreign xml:lang="la">iuris tantum</foreign> y <foreign xml:lang="la">iuris et de iure</foreign> en función de su capacidad para resistir prueba en contrario; por su lado, la <rs xml:lang="la">praesumptio hominis</rs>(o <foreign xml:lang="la">iudiciis</foreign>) se distingue en temeraria, <foreign xml:lang="la">probabilis</foreign> y violenta con base no tanto en el grado de verosimilitud cuanto en su influencia sobre la decisión del juez. La exposición de Murillo acoge ambas clasificaciones,<note n="34" place="bottom" xml:id="footnote-094">También Reiffenstuel, Jus Canonicum Universum, Libro II 2, Tit. 23: De praesumptionibus, nn. 2-4, y Schmalzgrueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 1, nn. 4-11; Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 17: Prueba, n. 40, solamente la primera.</note> la primera y más general de matriz principalmente civilística y la segunda producto característico de la canonística.<note n="35" place="bottom" xml:id="footnote-093">Fiori (2009), págs. 79-80, 97-98.</note> </p>
+                <p>En el parágrafo 195 se dice que la <rs xml:lang="la">praesumptio iuris</rs> es aquella que <quote xml:lang="la">“ipsa Lex elicit in aliquo casu aliquibus suppositis circunstantiis”</quote>;<note n="36" place="bottom" xml:id="footnote-092">Traducción: aquella que “ la ley misma ordena en un caso determinado supuestas determinadas circunstancias”.</note> dado que está legalmente prevista, su admisión y su valor probatorio no dependen del criterio del juez. Como he adelantado, este primer tipo se subdivide en las dos especies llamadas <rs xml:lang="la">praesumptio iuris tantum</rs> y <rs xml:lang="la">praesumptio iuris et de iure</rs>. Según una descripción traslaticia en la doctrina, la primera se da cuando <quote xml:lang="la">“jus aliquid praesumitur, et habet pro vero, donec vel probatione, vel fortiori praesumptione, elidatur: sed nihil Lex statuit pro sententia, vel poena”</quote>.<note n="37" place="bottom" xml:id="footnote-091">Traducción: cuando “ el derecho presume algo y lo tiene por verdadero mientras no sea expulsado por otra prueba u otra presunción más fuerte: pero de modo tal que la ley no impone nada en cuanto a la sentencia o la pena”.</note> Las presunciones de esta clase liberan de la prueba a aquel a quien favorecen,<note n="38" place="bottom" xml:id="footnote-090">Según X.2.19.2 y 4 y Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechas que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 10 Como aquel que prueua en juyzio que en algun tiempo fuera Señor, o tenedor de la cosa sobre que es la contienda, que deuemos sospechar que lo es, aun que non se prueue lo contrario. Sería quizá más exacto decir que desplazan el onus probandi del actor al indicio, signo o antecedente del hecho presunto, cuya prueba, por otra parte, suele ser menos dificultosa.</note> pero piden alegación de parte<note n="39" place="bottom" xml:id="footnote-089">Esta necesidad se desprende de VI.2.5.2.</note> y, tal como indica su descripción, admiten prueba en contrario; en este sentido, su efecto es la inversión del <foreign xml:lang="la">onus probandi</foreign>.<note n="40" place="bottom" xml:id="footnote-088">Cfr. Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 19: De probationibus, n. 140 (pág. 278): “Quod si praesumptio stet pro actore relevatur hic ab onere probandi, et transfert in reum hujusmodi onus, etiam, quando reus negat”, con cita de X.3.12.1 y Dig. 4.2.23.</note> Por su lado, la segunda especie, descrita asimismo del modo usual, tiene lugar cuando <quote xml:lang="la">“Lex aliquid ita praesumit, ut ex ipsa praesumptione jus aliquod firmum statuat, vel talem sententiam, vel talem poenam decernat”</quote>.<note n="41" place="bottom" xml:id="footnote-087">Traducción: “ la ley presume algo de tal modo que establece en firme algún derecho, o decide tal sentencia o tal pena”.</note> Esta clase de presunción excluye regularmente la prueba directa en contrario<note n="42" place="bottom" xml:id="footnote-086">Cod. Just. 4.29.3 y X.4.18.4; en el parágrafo 196, que trata específicamente de esta cuestión, se añade X.4.1.30. Se entiende por prueba directa la dirigida contra el hecho presunto.</note> –de ahí el nombre de <quote xml:lang="la">“necessaria, et violentissima”</quote> que también se le da– y no precisa alegación de parte, por lo que más que un medio de prueba supone una dispensa de la actividad probatoria; en cuanto a sus efectos, dado que produce una certeza total, en el fuero externo basta para fundar la sentencia.<note n="43" place="bottom" xml:id="footnote-085">No, en cambio, en el fuero interno: “Praesumptio etiam iuris et de iure, non habet locum in foro animae”, advierte Mascardus, De probationibus, Libro III, Concl. 1228, n. 70.</note> En contrapartida, sucede a veces que la norma en la que se basa la presunción debe interpretarse de forma restrictiva, como es el caso, según <name type="person">Azpilcueta</name>, de un texto canónico que induce presunción de usura contra aquel que <quote xml:lang="es-ES">“presta, y assegura, y lleva más de lo que presta”</quote>.<note n="44" place="bottom" xml:id="footnote-084">Azpilcueta, Comentario resolutorio de… cambios, n. 6; el texto es X.5.19.19.</note> El parágrafo de Murillo se completa con una serie de ejemplos de ambas especies.<note n="45" place="bottom" xml:id="footnote-083">Además de las contenidas en X.2.23, los ejemplos de praesumptiones iuris tantum proceden de VI.4.2.1, X.4.2.6 y 10, X.3.43.3 y Dig. 22.3.24; los de praesumptiones iuris et de iure se toman de X.4.1.21, X.4.5.6, X.4.1.30 (con la advertencia de que esta presunción ha sido suprimida por el Concilio de Trento), VI.5.2.8.2 y Cod. Just. 4.29.3. Hevia Bolaños, Curia Philipica, Parte III: Del juicio criminal, Párrafo 15: Prueba, n. 18, recoge un supuesto típico de praesumptio iuris tantum tomado de Nueva Recopilación 8.23.11; otro ejemplo en Veracruz, Speculum coniugiorum, Parte III, Art. 35: De impedimento criminis, quando est dubium, an fuerit legitimus vir, pág. 164 C: “Quando existimatio est de vero coniuge, et non potest contrarium probari, oportet impedimentum recognoscere”; y uno más de praesumptio iuris et de iure en Veracruz, Speculum coniugiorum, Parte III, Art. 13: Quid agendum quando alter coniugum negat consensum, pág. 527 B: “quia talis vir qui audivit, et intellexit verba expressiva consensus, vel signa, et per multum temporis non fuerunt revocata, non tenetur ei credere, si post dicat se non consensisse, quia paresumitur eam mentiri”, basándose en X.2.19.10.</note> </p>
+                <p>El parágrafo 196 insiste en el examen de la presunción <foreign xml:lang="la">iuris et de iure</foreign> con miras a determinar el alcance de esa característica suya que es la exclusión regular de la prueba en contrario. Dado que esta clase de presunción se tiene como verdad (<quote xml:lang="la">“pro veritate”</quote>), al perjudicado por ella se le tiene por convicto y confeso, no se le permite apelar<note n="46" place="bottom" xml:id="footnote-082">Cod. Just. 7.65.2.</note> ni se admite tampoco su juramento toda vez que, siendo cierta la causa, el juez no lo defiere. Ahora bien, Murillo señala varios modos en los que la presunción <foreign xml:lang="la">iuris et de iure</foreign> puede ser destruida; a saber, por confesión judicial del favorecido por ella o por confesión extrajudicial si hace prueba plena, ya que la confesión es testimonio de la verdad mientras que la presunción se tiene meramente <quote xml:lang="la">“pro veritate”</quote>; por la notoriedad o evidencia de hechos contrarios, pues la presunción no es más que <quote xml:lang="la">“sombra de la verdad”</quote> que, en cuanto tal, no puede prevalecer contra la luz de la más perfecta de todas las pruebas; por testimonio contrario directo de dos o tres testigos; por documento público; y por admisión sin oposición de parte de alguna prueba que la destruye, caso en el cual puede considerarse que aquel a quien la presunción favorece renuncia a su derecho. Además de estos supuestos, que son todos de prueba directa, la presunción <foreign xml:lang="la">iuris et de iure</foreign> también puede puede ser desvirtuada mediante la llamada prueba indirecta, que consiste básicamente en probar que no se da el supuesto de hecho en el que debería basarse.<note n="47" place="bottom" xml:id="footnote-081">Para un examen más amplio de estas posibilidades, Murillo remite a los tratados de Menochius, De praesumptionibus, Libro I, Quaest. 60-69, y Mascardus, De probationibus, Libro IV, Quaest 47-53; vid. también Reiffenstuel, Jus Canonicum Universum, Libro II, Tit. 23: De praesumptionibus, n. 6; Schmalz­grueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 1, nn. 12-14. Sobre el tema cfr. Oesterle (1948), págs. 439-448; Labandeira (1967), págs. 43-44.</note> </p>
+                <p>De la <rs xml:lang="la">praesumptio hominis</rs> trata el parágrafo 197, que la define como <quote xml:lang="la">“conjectura ab homine formata ex variis indiciis, et facti circunstantiis, nulla tamen jure expressa”</quote>.<note n="48" place="bottom" xml:id="footnote-080">Traducción: “ conjetura formada por el sujeto partiendo de diversos indicios y circunstancias de hecho, pero no legalmente expresa”.</note> Dada su naturaleza incompatible con la existencia de una norma legal que la imponga y regule su eficacia, esta clase de presunción depende en todo del criterio del juez, que la establece en el caso particular y decide el poder de convicción que le confiere; dependiendo, en efecto, de la fuerza de los indicios en los que se podría sustentar y a veces de su número, la presunción de hombre podrá ser enteramente inane o constituir prueba semiplena o prueba plena.<note n="49" place="bottom" xml:id="footnote-079">Plena probatio es aquella que permite al juez dictar sentencia sin necesidad de ulteriores requisitos; semiplena (o imperfecta) probatio, la que por sí sola no es suficiente para mover al juez a dictar sentencia. Vid. Reiffenstuel, Jus Canonicum Universum, Libro II. 2, Tit. 19: De probationibus, n. 2; Schmalzgrueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 19: De probationibus, § 1, nn. 10 y 14; Murillo Velarde, Cursus Iuris Canonici, Libro II 2, Tít. 19: De probationibus, nn. 137-139. Cfr. Rosoni (1995), págs. 72-96; Hubert (2009), págs. 147, 149-152.</note> Así, no prueba nada la <rs xml:lang="la">praesumptio levis</rs> o <foreign xml:lang="la">temeraria suspicio</foreign>, basada sólo en indicios inatendibles por su levedad;<note n="50" place="bottom" xml:id="footnote-078">C.6 q.1 c.9, X.5.35, X.5.39.44, Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechas que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 8 Quantas maneras son de prueua.</note> en cambio, nacida de indicios verosímiles que suelen ir unidos a aquello que se presume, la <foreign xml:lang="la">probabilis et discreta</foreign> es prueba semiplena<note n="51" place="bottom" xml:id="footnote-077">Prueba plena si se le añade juramento, fama pública o la deposición de un testigo: X.5.34.13, Gonzalez Tellez, Commentaria, in X.5.34.12.</note> que en el fuero canónico da lugar a la imposición del juramento purgatorio (purgatio canonica) y en el secular permite proceder a la tortura;<note n="52" place="bottom" xml:id="footnote-076">Respectivamente, X.5.34.4 y Dig. 48.18.18.1. A los indicios bastantes para dar tormento se refieren Hevia Bolaños, Curia Philipìca, Parte III: Del juicio criminal, Párrafo 16: Tormento, nn. 7-12, y Elizondo, Práctica universal, Tomo 1, Juicio criminal, nn. 5-12 (págs. 275-277); según Hevia Bolaños, Curia Philipìca, Parte III: Del juicio criminal, Párrafo 15: Prueba, n. 19, probando que uno es buen cristiano o noble, o que tiene buena fama se purgan algunas “leves presunciones menos idóneas, que para dar tormento”, con cita de D.61 c.5, X.2.23.6 y 16, Las Siete Partidas, Partida II, Título IX Qual deue el Rey ser a sus officiales, e a los de su casa, e de su corte, e ellos a el, Ley 2 Quales omes deue el Rey recebir en su casa para servirse dellos y Las Siete Partidas, Partida VII, Título primero de las acusaciones que se fazen contra los malos fechos, e de los denunciamientos, e del oficio del judgador que ha a pesquerir los malos fechos, Ley 26 Como el juez deue librar la acusacion por derecho despues que la ouiesse oyda; Azpilcueta, Manual de Confessores, Cap. 18: Del octavo mandamiento, Del descubrir secreto, que es otro pecado de palabras contra este octavo mandamiento, n. 57: culpa a los que dan tormento a los reos “quando no ay fama, ni indicios, ni presumcion legitima”. Sobre praesumptio probabilis y purgatio canonica, vid. Fiori (2009), págs. 86-87, 91; Fiori (2013), págs. 428-446.</note> prueba plena es finalmente la <foreign xml:lang="la">violenta et vehemens</foreign>, o sea, la basada en indicios gravísimos; en causas civiles basta para dictar sentencia definitiva;<note n="53" place="bottom" xml:id="footnote-075">X.2.23.2, Las Siete Partidas, Partida III, Título 14 De las prueuas, e de las sospechas que los omes aduzen en juizio sobre las cosas negadas, e dudosas, Ley 8 Quantas maneras son de prueua.</note> en crímenes ocultos y de prueba especialmente difícil, esta presunción –<quote xml:lang="la">“sive iuris, sive hominis”</quote>– es suficiente para imponer pena no sólo arbitraria o extraordinaria sino ordinaria.<note n="54" place="bottom" xml:id="footnote-074">X.2.23.12, X.5.3.11, VI.5.4.1, Cod. Just. 9.9.34; del mismo parecer son el Panormitano, Menoquio y González.</note> Contra la opinión de <name type="person">Antonio Gómez</name> y otros partidarios de absolver en tal tipo de casos siempre que no haya otra prueba además de la presunción, Murillo subraya el espacio que eso daría a la impunidad e indica también que los textos que requieren en lo criminal pruebas liquidísimas y más claras que la luz meridiana<note n="55" place="bottom" xml:id="footnote-073">C.2 q.1 c.1, X.2.23.14, Dig. 48.19.5, Cod. Just. 4.19.25.</note> no suponen ningún obstáculo, ya que a aquel contra el que hay presunción vehementísima y violenta se le tiene por convicto.<note n="56" place="bottom" xml:id="footnote-072">Cfr. C.2 q.1 c.1: Nos in quemquam sententiam ferre non possumus, nisi aut convictus, aut sponte confessus.</note> De todos modos, la vehemencia de la presunción debe ser tanto mayor cuanto más grave es el delito;<note n="57" place="bottom" xml:id="footnote-071">Esto se infiere de VI.1.6.3.</note> e incluso, tratándose de pena capital, ni siquiera es suficiente la presunción violentísima dado que siempre es compatible con la falsedad.<note n="58" place="bottom" xml:id="footnote-070">Ésta es la regla en España según Murillo, que cita Las Siete Partidas, Partida VII, Título 31 De las penas, Ley 7 A quales omes deuen ser dadas las penas, e quando, e en que manera, Las Siete Partidas, Partida VII, Título 1 de las acusaciones que se fazen contra los malos fechos, e de los denunciamientos, e del oficio del judgador que ha a pesquerir los malos fechos, Ley 26 Como el juez deue librar la acusacion por derecho despues que la ouiesse oyda, con la gl. dubda ninguna, Cevallos, Acevedo y Hevia Bolaños. Cfr. Reiffenstuel, Jus Canonicum Universum, Libro II, Tit. 23: De praesumptionibus, n. 8; Schmalzgrueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 1, nn. 15-22.</note> </p>
+                <p>En la medida en que refleja una regulación siquiera sea doctrinal del uso y la eficacia de las <foreign xml:lang="la">praesumptiones hominis</foreign>, la clasificación anterior no deja de presentar quizás un aspecto paradójico. Problemática es asimismo la cuestión de si las presunciones de este tipo, al margen de su consideración en cada caso como prueba plena o semiplena,<note n="59" place="bottom" xml:id="footnote-069">En cualquiera de los dos casos admite prueba en contra: Reiffenstuel, Jus Canonicum Universum, ­Libro II, Tit. 23: De praesumptionibus, n. 6.</note> invierten la carga de la prueba. Murillo no toca este problema. Basándose en un argumento a <foreign xml:lang="la">maiore ad minus</foreign>, Menoquio lo afronta con cierta cautela y concluye que la inversión se da únicamente cuando la presunción no es de leve peso, ya que entonces no se diferencia de la <foreign xml:lang="la">praesumptio legis</foreign>.<note n="60" place="bottom" xml:id="footnote-068">Menochius, De praesumptionibus, Libro I, Quaest. 33: Praesumptio quando transferat probandi onus in adversarium, nn. 9-11; n. 10: “Nam si praesumptio hominis interdum praevalet praesumptioni legis, et eam cessare facit…, a fortiori dicendum videtur, quod si legis praesumptio transfert probationis onus in adversarium, id etiam faciat hominis praesumptio”.</note> </p>
+            </div>
+            <div n="5">
+                <head>5. Algunas reglas sobre el uso de las presunciones</head>
+                <p>En el <bibl subtype="book_chapter">Index titulorum</bibl> del tratado de Murillo, la rúbrica común de los dos últimos parágrafos es <foreign xml:lang="la">De aliquibus praesumptionibus in specie</foreign>. Son muchas en efecto las que se mencionan en cada uno de ellos, pero lo más importante es su presentación a título de “reglas” que permiten inferir otras presunciones<quote xml:lang="es-ES">“útiles para los casos particulares”</quote>. Dado que esta posibilidad no existiría si el número de las presunciones estuviera tasado, lo dicho significa sin lugar a dudas que al menos el de las <foreign xml:lang="la">praesumptiones hominis</foreign> no lo está;<note n="61" place="bottom" xml:id="footnote-067">Rosoni (1995), págs. 159-160.</note> más concretamente, el brocardo <quote xml:lang="la">“quae non prosunt singula, cuncta juvant”</quote><note n="62" place="bottom" xml:id="footnote-066">Traducción: “lo que no es útil por separado, junto sí ayuda”.</note> citado en este contexto indica la posibilidad de armar <foreign xml:lang="la">ad casum</foreign> una prueba consistente combinando datos que por separado no probarían nada, si bien los requisitos para poder hacer esto son distintos en el orden civil y en el criminal.<note n="63" place="bottom" xml:id="footnote-065">Señala Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 17: Prueba, n. 6, que en causas civiles dos pruebas semiplenas hacen prueba plena; por ej., el concurso de la confesión extrajudicial hecha al ausente con “un testigo, u otra presunción, o indicio, que la cause”; no ocurre lo mismo en las causas criminales: Hevia Bolaños, Curia Philipica, Parte III: Del juicio criminal, Párrafo 15: Prueba, nn. 11 y 18. Sobre el cálculo de los indicios, vid. Rosoni (1995), págs. 203-215.</note> Tomadas de los derechos romano, canónico y castellano y también algunas de la doctrina, las <quote xml:lang="la">“regulae”</quote> del parágrafo 198 son muy numerosas y demasiado heterogéneas como para recogerlas aquí.<note n="64" place="bottom" xml:id="footnote-064">El nombre de “regulae” que globalmente se les da podría deberse a que bastantes de ellas son meras máximas de experiencia que indican id quod plerumque accidit; vid. Labandeira (1967), págs. 196-202. Murillo no distingue entre praesumptiones hominis y praesumptiones iuris y sólo en unos pocos casos menciona la posibilidad de la prueba en contrario: praesumptio commixtionis Sodomiticae; termini confinium censetur nunc esse ubi olim erant, qui semel fuit Dominus alicujus rei, ejus dominus praesumitur, semel bonus semper praesumitur bonus.</note> Sí conviene consignar, por su carácter más general, la regla según la cual la estimación de la solidez de las presunciones o indicios –<foreign xml:lang="la">hominis</foreign> lógicamente– es incumbencia del juez, que la deberá declarar <foreign xml:lang="la">hic et nunc</foreign>, o sea, en cada caso y en función de las circunstancias de persona,<note n="65" place="bottom" xml:id="footnote-063">Hevia Bolaños, Curia Philipica, Parte I: Del juicio civil, Párrafo 17: Prueba, n. 12: “aunque el dicho de los menores de edad no es pleno, hace gran presunción, siendo de buen entendimiento”, según Las Siete Partidas, Partida III, Título 16 De los testigos, Ley 9 De quantos años deuen ser aquellos que ouieren de testiguar.</note> tiempo, lugar<note n="66" place="bottom" xml:id="footnote-062">Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 23: De praesumptionibus, n. 198 (pág. 321): “si solus cum sola, nudus cum nuda in eodem lecto jacens invenitur, copula praesumitur… nisi sint con­sanguinei”; Azpilcueta, Manual de Confessores, Cap. 18: Del octavo mandamiento, n. 11: con graves y bastantes indicios (no con leves y no bastantes), sin pecado alguno se puede juzgar en juicio y fuera de él: “como es ver algunas personas sospechosas juntas en lugar sospechoso o juntamente en el lecho” (X.2.23.12).</note> y demás.</p>
+                <p>General es también la observación, ya en el parágrafo 199, de que las cualidades que se encuentran naturalmente presentes en algo siempre se presumen existentes, no en cambio las accidentales (culto, noble, doctor, clérigo). De acuerdo con este principio, en el hombre se acostumbra presumir lo que es natural a su condición, entendiendo por tal la edad o el sexo del individuo. Los ejemplos que se recogen en este parágrafo forman una lista igualmente larga y heterogénea; algunos de ellos se organizan en torno a un principio o <foreign xml:lang="la">regula iuris</foreign> que el juez debe tener presente en la formación y el uso de la presunción: <foreign xml:lang="la">Ea facta, quae dubium est quo animo fiant, in meliorem partem interpretemur</foreign>;<note n="67" place="bottom" xml:id="footnote-061">Cita literal de X.5.41.2 que se podría traducir de este modo: “deben interpretarse en el sentido más benigno o favorable aquellos hechos de los que se duda con qué intención se realizaron”.</note> de cualquier modo, la decisión sobre esto depende de las circunstancias y la regla sólo se aplica a los actos de suyo indiferentes o susceptibles de doble interpretación. Al final de la relación de ejemplos, la advertencia de que los doctores colocan varios de los citados <quote xml:lang="es-ES">“bajo diferentes vocablos”</quote> delata seguramente lo dudoso de su naturaleza, pero Murillo no dice de ello sino que sólo caso por caso se puede lograr mayor claridad. Muy importante es por último la regla que se debe seguir cuando concurren dos presunciones contrarias cualquiera que sea su naturaleza. Como no puede ser de otro modo, esa regla indica que debe prevalecer la más válida y más fuerte,<note n="68" place="bottom" xml:id="footnote-060">X.4.17.4, Dig. 4.1.7 pr.</note> pues una presunción expulsa a la otra (<foreign xml:lang="la">sic ars eluditur arte</foreign>) y todas ellas se desvanecen ante la verdad. La pauta en cuestión se traduce en otras más específicas que deben servir para decidir cuál de las dos presunciones en conflicto es más válida y más fuerte<note n="69" place="bottom" xml:id="footnote-059">La mayoría de estas pautas son expresión de principios generales o de criterios interpretativos cuya aplicación no se circunscribe al uso de las presunciones.</note> . Así, <foreign xml:lang="la">ceteris paribus</foreign> debe prevalecer la que favorece la conservación del acto;<note n="70" place="bottom" xml:id="footnote-058">Dig. 34.5.12.</note> la más benigna sobre la más rígida;<note n="71" place="bottom" xml:id="footnote-057">Dig. 50.17.56, VI. de reg. iur. 49.</note> la especial sobre la general;<note n="72" place="bottom" xml:id="footnote-056">VI. de reg. iur. 34.</note> la más conforme a derecho sobre la que lo corrige del modo que sea;<note n="73" place="bottom" xml:id="footnote-055">Arg. VI.1.6.29.</note> la <rs xml:lang="la">praesumptio iuris</rs> sobre la <rs xml:lang="la">praesumptio hominis</rs>;<note n="74" place="bottom" xml:id="footnote-054">Arg. X.1.2.1</note> la más honesta y la que excluye el delito sobre aquella de la que se infiere su comisión;<note n="75" place="bottom" xml:id="footnote-053">Arg. Dig. 17.2.51; cfr. Veracruz, Speculum coniugiorum, Parte III, Art. 19: De illo qui ficte promissit, pág. 562 C, donde el conflicto entre dos presunciones iuris tantum – la de engaño y seducción y la de fingir la mujer el engaño– se resuelve, atendidas las circunstancias socioeconómicas de las personas implicadas, con la exclusión de la primera.</note> la favorable al reo sobre la favorable al actor;<note n="76" place="bottom" xml:id="footnote-052">Dig. 50.17.125.</note> y aquella <quote xml:lang="la">“per quam animae magis consulitur”</quote>.<note n="77" place="bottom" xml:id="footnote-051">Traducción: “por la que más (o mejor) se resguarda el alma”; arg. X.4.1.12; cfr. Schmalzgrueber, Ius Ecclesiasticum Universum, Tomo II: Iudicium ecclesiasticum, Tit. 23: De praesumptionibus, § 2, n. 39, 4.</note> Todo ello se resume en la idea, ésta sí una verdadera <foreign xml:lang="la">regula iuris</foreign>, de que se debe preferir la presunción más verosímil y aquello que suele ser más frecuente.<note n="78" place="bottom" xml:id="footnote-050">VI. de reg. iur. 45 (= Dig. 50.17.114). Murillo advierte que no ha agotado la materia y remite a Menoquio y demás autores.</note> </p>
+
+                <p>6. Razonamiento presuntivo y presunciones en Indias</p>
+                <p>El razonamiento presuntivo recibe multitud de aplicaciones singulares en los más diversos sectores del derecho y en campos que se pueden considerar afines. Venimos insistiendo, sin embargo, en que no siempre esas aplicaciones se contienen dentro de los límites de la noción técnica de presunción ni, en consecuencia, del uso judicial de las presunciones en relación con la prueba. En el momento de examinar el derecho aplicado en <name type="place">Indias</name>, será conveniente tener presente esta diferencia a fin de deslindar las verdaderas presunciones de los demás usos del razonamiento presuntivo tomado en sentido general, que son comparativamente mucho más numerosos. Por lo demás, sin necesidad de ninguna adaptación técnica que merezca la pena reseñar,<note n="79" place="bottom" xml:id="footnote-049">Ninguna, al menos, que pueda deducirse de Hevia Bolaños, Murillo Velarde o Elizondo.</note> los españoles se valieron no pocas veces de este tipo de razonamiento, incluidas las presunciones, en la ingente tarea de ahormar dentro de los cuadros del derecho europeo las novedosas situaciones que tuvieron que enfrentar en el <name type="place">Nuevo Mundo</name>. No es casual que el protagonista de muchas de esas situaciones sea el <rs xml:lang="es-ES">indígena americano</rs>, casi a la par con la <term xml:lang="es-ES">encomienda</term> como institución característica de las <name type="place">Indias</name>.</p>
+                <p>Dice <name type="person">Solórzano Pereira</name> que los indios, como vasallos que son de la <name type="org">Corona</name>, gozan de la presunción de libertad; en la situación concreta a la que se refiere el autor,<note n="80" place="bottom" xml:id="footnote-048">Se trata de una real cédula de 1533 dirigida a la Audiencia de México que ordena poner en libertad a los indios “que se hubieren hecho esclavos, contra razón y derecho” y contra las provisiones reales; vid. Solórzano y Pereira, Política indiana, Libro II, Cap. 1: De la libertad de los indios, n. 20.</note> tal presunción parecería ser solamente <foreign xml:lang="la">iuris tantum</foreign>, ya que aquel que pretende ser dueño de un indio la puede superar exhibiendo su título. Contra semejante apreciación nos previene, no obstante, su carácter evidentemente excesivo, pues, a poco que se profundice, se deberá admitir que la libertad de los indígenas no es de ningún modo un hecho presunto basado en indicios que se puedan destruir con la prueba de otros hechos, sino auténtico presupuesto normativo. Este ejemplo nos da un primer modelo de razonamiento presuntivo que, con independencia del lenguaje en que se expresa, dista mucho de ser una presunción. Por la misma razón, tampoco parece que lo sea la <quote xml:lang="es-ES">“presunción de derecho”</quote> acerca del carácter personal de los tributos que gravan a los indios,<note n="81" place="bottom" xml:id="footnote-047">Solórzano y Pereira, Política indiana, Libro II, Cap. 19: De los tributos de los indios…, n. 40; el indicio en el que se basa esta falsa presunción es la ausencia de declaración legal expresa que sancione el carácter real del tributo de los indios, reforzado por otras normas que mandan dejar totalmente libres sus haciendas y posesiones.</note> ni aún menos la de colusión de todo concierto sobre el tributo de los <rs xml:lang="es-ES">indios</rs> pasado entre ellos y su encomendero, expresión en realidad de la <foreign xml:lang="la">ratio</foreign> de un conjunto de normas prohibitivas.<note n="82" place="bottom" xml:id="footnote-046">Solórzano y Pereira, Política indiana, Libro II, Cap. 21: De los mismos tributos [de los indios] y forma que se ha de tener en sus tasas y cobranzas…, n. 11; lo que parece haber aquí es una decisión sustantiva basada en la presunción vulgar del legislador de que el acuerdo entre el encomendero y sus indios siempre es perjudicial para estos últimos.</note> En fin, presupuesto normativo parece ser también la <quote xml:lang="es-ES">“presunción del derecho”</quote> contra la que prevalece, por el mero paso de cuarenta años, la costumbre de no diezmar los <rs xml:lang="es-ES">indios</rs> o de hacerlo de cierta forma o de ciertas cosas.<note n="83" place="bottom" xml:id="footnote-045">Solórzano y Pereira, Política indiana, Libro II, Cap. 23: De los mismos diezmos de los indios…, n. 16; lo que Solórzano llama “presunción del derecho” se refiere en este caso a la obligación de diezmar de los indios ya convertidos (vid. Solórzano y Pereira, Política indiana, Libro II, Cap. 22: De los diezmos de los indios…, nn. 3, 11-14); como explica Elizondo, Práctica universal, Tomo 2, Juicio ordinario, n. 3 (pág. 375), la presunción “está siempre a favor de la Iglesia”.</note> </p>
+                <p>En <name type="person">Peña Montenegro</name> encontramos de nuevo la presunción impropia de que todo trato de <rs xml:lang="es-ES">indios</rs> con encomenderos está viciado por el miedo reverencial de los primeros, de donde su reiterada prohibición.<note n="84" place="bottom" xml:id="footnote-044">Peña Montenegro, Itinerario, Libro I, Trat. 6: De las ofrendas, Secc. 6: Si las ofrendas y otras cosas cobradas contra justicia…, n. 2.</note> Gravísima es la presunción de ser ladrones los <rs xml:lang="es-ES">indios</rs> vendedores, así en general y sin apenas excepción;<note n="85" place="bottom" xml:id="footnote-043">Peña Montenegro, Itinerario, Libro II, Trat. 3: De los defectos y faltas que se hacen en tratar y tratar los indios…, Secc. 1: Si es pecado comprar a los indios algunas cosas de precios que venden, n. 2; vid. Cuena Boy (2017), págs. 575-576; según Peña Montenegro, Itinerario, Libro II, Trat, 3, Secc. 2: Si lo que probablemente creemos que es hurtado lo podemos comprar del indio…, n. 1, es lícito comprar del indio algo que parece hurtado para restituírselo a su dueño; quien así lo hace presume rationabiliter que el dueño le reembolsará el precio, pero esto no es presunción sino esperanza que decide al comprador.</note> si tuviera relación concreta y directa con la prueba en el proceso, sería ésta, a lo sumo, una opinión más o menos extendida necesitada como mínimo de <quote xml:lang="es-ES">“cualquier razonable conjetura”</quote> para poder levantar una <foreign xml:lang="la">praesumptio iudicis</foreign> y no caer en <quote xml:lang="es-ES">“temerario juicio”</quote>; pero también podemos atisbar aquí la posibilidad de un conflicto entre dos de las reglas principales acogidas en el derecho canónico sobre el uso de las presunciones: la generalísima de atenerse al criterio del <foreign xml:lang="la">id quod plerumque accidit</foreign> y aquella otra que prescribe interpretar <foreign xml:lang="la">in meliorem partem ea facta, quae dubium est quo animo fiant</foreign>.<note n="86" place="bottom" xml:id="footnote-042">Respectivamente VI. de reg. iur. 45 y X.5.41.2.</note> Sin cita de norma alguna, <name type="person">Peña</name> señala que “el derecho rescinde los contratos que hicieron [los indios] medio embriagados, presumiendo que no tenían bastante uso de razón”;<note n="87" place="bottom" xml:id="footnote-041">Peña Montenegro, Itinerario, Libro II, Trat. 7: De la embriaguez, Secc. 6: Si los contratos que hacen los que están privados de juicio… son válidos, n. 2.</note> pese a las apariencias, no se trata de una presunción <foreign xml:lang="la">iuris et de iure</foreign>, sino de una decisión –<quote xml:lang="es-ES">“el derecho rescinde”</quote>– basada en una presunción impropia del legislador. Dada su natural inclinación a la mentira, de los <rs xml:lang="es-ES">indios</rs> se presume que incumplirán los juramentos promisorios y que en los asertorios no dirán verdad; si de todos modos les obliga a jurar el juez, deberá instruirlos previamente sobre la gravedad del acto;<note n="88" place="bottom" xml:id="footnote-040">Peña Montenegro, Itinerario, Libro II, Trat. 1: De los privilegios de los indios…, Secc. 5: Si pecarán mortalmente los que hacen jurar a los indios…, nn. 1-2; al juramento de los néofitos se refieren el Conc. III Lima. Actio IV, Cap. 6., y el Conc. III Mex. Libro II, Tít. 5: De Testibus &amp; probationibus, § 10; cfr. Novoa (1999), pág. 263.</note> en este caso la prueba sería la declaración bajo juramento y no la presunción, que tiene carácter previo y se asiente sobre un indicio que, aun consabido y generalizado, respecto al concreto individuo declarante puede ser desvirtuado por la acción del propio juez. En relación con la herejía, en el fuero externo se presume la ignorancia e incapacidad de los <rs xml:lang="es-ES">indios</rs> en vez de la malicia como se presume normalmente de los rústicos en general; de ahí que los casos de herejía de los <rs xml:lang="es-ES">indios</rs> correspondan al conocimiento del obispo, cuando lo ordinario sería que se encargara de ellos la Inquisición;<note n="89" place="bottom" xml:id="footnote-039">Peña Montenegro, Itinerario, Libro II, Trat. 8: De la fe que han de tener los indios…, Secc. 4: De algunos errores que comúnmente tienen los indios… en materia de fe, n. 3.</note> una vez más, no estamos ante una presunción que tenga que ver nada con la prueba en el proceso, sino ante una regla provisional de atribución de competencia justificada por razones que afectan a los <rs xml:lang="es-ES">indios</rs> como grupo; de hecho, esto es lo que indica la referencia a la cuestión por parte de <name type="person">Solórzano</name>, que la describe sin utilizar la palabra presunción.<note n="90" place="bottom" xml:id="footnote-038">Solórzano y Pereira, Política indiana, Libro IV, Cap. 24: De las misiones y expediciones espirituales…, n. 18: “(…) con advertencia que por ahora se abstengan de proceder contra indios por ninguna de las dichas causas, por su rudeza e incapacidad y que muchos de ellos aún no están bien instruidos en las cosas de nuestra santa fe católica.”</note> Del indio que no quiere cumplir la palabra de casarse dada en estado de embriaguez debe presumir el confesor que no cedió su derecho de disolver los esponsales, tanto más cuando de los <rs xml:lang="es-ES">indios</rs> se presume inepcia para contratar sin perjuicio propio;<note n="91" place="bottom" xml:id="footnote-037">Peña Montenegro, Itinerario, Libro III, Trat. 4: Del confesor, Secc. 18: Si se ha de absolver al indio que dio palabra de casarse y no la quiere cumplir, n. 17.</note> el hecho presunto –la voluntad del indio de no renunciar a su derecho– se infiere de la embriaguez, pero el valor indiciario de ésta se subsume en el supuesto previo y general de la inepcia de los <rs xml:lang="es-ES">indios</rs> para contratar, de modo de no ser más que una de sus posibles concreciones; por esta razón, más que una <rs xml:lang="la">praesumptio iuris</rs> impuesta al confesor (el juez) –nótese que <name type="person">Peña</name> no menciona norma alguna que la ordene, sino que la infiere aplicando únicamente el <foreign xml:lang="la">locus a maiore ad minus</foreign>–, se trata de una consecuencia derivada del supuesto general en cuestión. Tampoco es presunción, sino punto de partida normativo, la indicación de que <quote xml:lang="es-ES">“se ha de presumir siempre”</quote>, salvo ignorancia o incapacidad evidente, que el indio padrino es consciente de que contrae el impedimento dirimente de cognación espiritual respecto de la madre de su ahijado.<note n="92" place="bottom" xml:id="footnote-036">Peña Montenegro, Itinerario, Libro III, Trat. 10: De los grados de consanguinidad y afinidad, cognación espiritual y dispensación en ellos, Secc. 3: Si el indio contrae cognación espiritual con el ahijado y su madre, cuando hace de padrino…, n. 7.</note> </p>
+                <p>Aun cuando <name type="person">Peña</name> utiliza el verbo presumir, la asunción común a teólogos y juristas de que el padre infiel no se opone al bautismo de su hijo es reflejo, incluso explícito, del <foreign xml:lang="la">favor fidei</foreign>: <quote xml:lang="es-ES">“se presume que el padre gentil cede o renuncia en favor de la fe el derecho que tiene en el hijo y la patria potestad”</quote>.<note n="93" place="bottom" xml:id="footnote-035">Peña Montenegro, Itinerario, Libro III, Trat. 1: Del bautismo, Secc. 7: Cuando de dos infieles casados se convierte el uno…, n. 3; lo mismo en el n. 4: “cuando hay duda si el hijo es capaz de razón o no, se ha de presumir siempre en favor de la fe”.</note> Si el convertido y bautizado sigue haciendo vida maridable con la mujer que permanece infiel <quote xml:lang="es-ES">“se presumirá”</quote>, dice igualmente <name type="person">Peña</name>, <quote xml:lang="es-ES">“que ampara y fomenta la infidelidad”</quote> de ésta;<note n="94" place="bottom" xml:id="footnote-034">Peña Montenegro, Itinerario, Libro III, Trat. 9: Del sacramento del matrimonio, Subtrat. Del matrimonio de los infieles, Secc. 6: Si el infiel casado que se convierte y bautiza podrá hacer vida maridable…, n. 2.</note> sin embargo, la cuestión dudosa es si se debe permitir al converso seguir conviviendo con la infiel <foreign xml:lang="la">more uxorio</foreign> y éste es un asunto de derecho material. La misma calificación conviene al supuesto del esclavo ordenado sin licencia de su señor: éste pierde el derecho de reclamarlo si no lo ejerce dentro de un año <quote xml:lang="es-ES">“porque se presume (pues dejó pasar tanto tiempo sin repetirlo) que le consintió ordenarse y que le dio libertad”</quote> según dispone un texto del Decreto;<note n="95" place="bottom" xml:id="footnote-033">Peña Montenegro, Itinerario, Libro III, Trat. 8: Del sacramento del orden, Secc. 4: Si en estas partes donde hay tantos negros y esclavos podrán ser ordenados, n. 3; la referencia es a D.54 c.20.</note> en realidad, ese canon no establece una <rs xml:lang="la">praesumptio iuris et de iure</rs>, como resultaría de la presentación de <name type="person">Peña</name>, sino un plazo de caducidad para la repetición del amo, expirado el cual, el esclavo ordenado es definitivamente libre por mandato legal directo y sin necesidad de ninguna presunción.</p>
+                <p>Los análisis anteriores denotan un uso extenso del razonamiento presuntivo por parte de <name type="person">Peña</name>, al que da un sentido muy amplio que excede el de la presunción propiamente tal; incluso, en alguna ocasión emplea el verbo presumir sin ningún significado técnico.<note n="96" place="bottom" xml:id="footnote-032">Por ej., Peña Montenegro, Itinerario, Libro V, Trat. 1: De los privilegios, Secc. 18: Documentos prácticos en cuanto a dispensaciones, n. 6: “no se presume que la facultad de dispensar que el derecho concede sea de otra manera que precediendo conocimiento de causa”; ese conocimiento de causa perfectamente puede ser extrajudicial; Peña Montenegro, Itinerario, Libro III, Trat. 9: Del sacramento del matrimonio, Secc. 3: Si serán válidos los esponsales y matrimonios, cuando los contrayentes callan a las preguntas…, n. 3: “donde hay miedo reverencial, no presume el derecho el consentimiento del contrayente”.</note> Casos más parecidos a la verdadera presunción hay muy pocos en el Itinerario: el párroco de <rs xml:lang="es-ES">indios</rs> cuya colación es nula porque no sabía la lengua puede, habiéndola aprendido después, retener el curato sin necesidad de nuevo nombramiento, ya que la voluntad inicial de los electores <quote xml:lang="es-ES">“se presupone que persevera siempre”</quote> mientras no la revocan;<note n="97" place="bottom" xml:id="footnote-031">Peña Montenegro, Itinerario, Libro I, Tract. 1: De la elección y canónica institución del párroco, Secc. 12: Si al que obtuvo colación y presentación del beneficio írrita y nula, porque no supo la lengua…, n. 4; en los nn. 5-6 se restringe lo dicho al supuesto de ser oculto el impedimento que anuló la elección, o sea, el desconocimiento de la lengua.</note> <name type="person">Peña</name> considera probable esta opinión doctrinal que, no sin alguna dificultad, se podría conceptuar como presunción de hombre o de juez. En los esponsales y matrimonios el derecho presume el consentimiento del hijo que calla y no contradice las palabras que el padre pronuncia en su presencia;<note n="98" place="bottom" xml:id="footnote-030">Peña Montenegro, Itinerario, Libro III, Tract. 9: Del sacramento del matrimonio, Secc. 3: Si serán válidos los esponsales y matrimonios, cuando los contrayentes callan a las preguntas…, n. 3; arg. VI.4.2.1 § 2; cfr. VI. de reg. iur. 43: qui tacet, consentire videtur.</note> se trata de una presunción <foreign xml:lang="la">iuris tantum</foreign><note n="99" place="bottom" xml:id="footnote-029">Las palabras del padre son “señales del consentimiento que se presume en el hijo”.</note> que se destruye mediante la prueba del miedo reverencial, poco dificultosa en los indios.</p>
+                <p>Poca información sobre la difusión del razonamiento presuntivo proporciona <name type="person">Gaspar de Villarroel</name>. En su obra encontramos un ejemplo solitario de presunción en el debate, citado a propósito de otra cuestión, acerca de si dar el varón el anillo a la esposa es suficiente indicio de esponsales y de si el anillo que el esposo entra en el dedo de la esposa se considera que se lo dona.<note n="100" place="bottom" xml:id="footnote-028">Villarroel, Gobierno Eclesiástico-Pacífico, Tomo I, Quaest. 7: De la grandeza con que se debe exercer el Pontifical, Art. 6: Si el obispo debe celebrar con el anillo, n. 20; en el Tomo II, Quaest. 14: Del poder que tienen los Obispos para ir a la mano a las Audiencias…, Art. 3: Si podrán los Obispos, y Jueces Eclesiásticos… conocer de las causas de personas miserables, n. 61, se cita la opinión de Feliciano de la Vega en el sentido de que los jueces eclesiásticos pueden asumir el conocimiento de las causas de las personas miserables, como eran los indígenas, “ob neglegentiam praesumptam” de los jueces seculares “quae colligitur ex potentia adversarii, qui comissit spolii”.</note> Sobre ambos puntos remite <name type="person">Villarroel</name> a <name type="person">Tomás Sánchez</name>,<note n="101" place="bottom" xml:id="footnote-027">Sánchez, Disputationum, Libro I, Disp. 22: Utrum subarratio annuli, sit sufficiens sponsalium, aut matrimonii indicium, nn. 1-7; Libro VI, Disp. 23: Quo tempore donari debeat sponsalicia largitas, nec censetur invalida, etc., n. 10.</note> que habla, en efecto, de <quote xml:lang="es-ES">“presumir”</quote> en su examen del primero, pero no en relación con el hecho de dar el anillo –que rechaza como <quote xml:lang="la">“signum aequivocum”</quote> y de ningún valor salvo allí donde está reconocido por la costumbre–, sino con otros indicios que él mismo concreta. De todos modos, parece que lo único que esos indicios podrían llegar a integrar es una <foreign xml:lang="la">praesumptio iudicis</foreign>.</p>
+                <p>Veamos ahora qué trae <name type="person">Solórzano Pereira</name> en relación con las encomiendas. Ante todo, esta institución tiene a su favor la <quote xml:lang="es-ES">“presunción del derecho”</quote> que merece todo aquello que <quote xml:lang="es-ES">“se hace siguiendo ejemplares, y más cuando son abonados”</quote> como el de <name type="person">san Gregorio</name> que se cita en el párrafo;<note n="102" place="bottom" xml:id="footnote-026">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, n. 17; en nota se cita Cod. Iust. 4.19.7, Cic. de off. y Felin. in c. 2 de praesump.</note> en este caso, <quote xml:lang="es-ES">“presunción del derecho”</quote> es sólo una frase de apariencia técnica que refiere un argumento de autoridad. Abundan los documentos –cédulas reales y cartas– de los que se puede <quote xml:lang="es-ES">“inferir o presumir”</quote> que la encomienda no atribuye propiedad o dominio directo sobre los <rs xml:lang="es-ES">indios</rs> y sus tributos;<note n="103" place="bottom" xml:id="footnote-025">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, nn. 7-8; cfr. n. 3.</note> en principio aquí se daría el esquema típico de la presunción: el hecho presunto sería la no adquisición de la propiedad y el indicio del que se infiere serían los documentos; pero el instrumento de la presunción no sirve para fijar de modo general la naturaleza jurídica de una institución como la encomienda, que es de lo que se trata, luego no hay tal presunción sino un razonamiento complejo, anterior a cualquier cuestión de índole procesal y del que la inferencia no es más que un ingrediente.<note n="104" place="bottom" xml:id="footnote-024">Dig. 6.3.1.1, 43.18.1 y 40.7.4.4, citados en nota cum aliis ap. Menoch. lib. 4, de praesump. 134, lejos de abonar la tesis de que se trata de una presunción, confirman lo dicho en el texto.</note> Tampoco el correcto proceder de los virreyes y gobernadores en la provisión de <term xml:lang="es-ES">encomiendas</term> es hecho presunto que se pueda o se deba inferir partiendo de indicios, sino un postulado jurídico-político imprescindible; en la frase <quote xml:lang="es-ES">“por estar siempre la presunción… por los que ocupan tales lugares”</quote>, el adverbio siempre no indica una <rs xml:lang="la">praesumptio iuris</rs> sino la normalidad asentada sobre ese postulado: <quote xml:lang="es-ES">“como lo dice el derecho, y convenir a la autoridad de [virreyes y gobernadores] y de quien los nombra y a la utilidad pública que así se presuma”</quote>.<note n="105" place="bottom" xml:id="footnote-023">Solórzano y Pereira, Política indiana, Libro III, Cap. 8: Cómo se deben haber los virreyes y gobernadores en la provisión de encomiendas…, n. 16; la referencia al derecho se concreta en la cita de Dig. 1.11.1.1 y Cod. Iust. 1.45.2 cum aliis apud Menoch. lib. 2, de praesump. 67 y 85.</note> Lo mismo se debe decir de este otro caso: del príncipe <quote xml:lang="es-ES">“siempre se presume haberse movido por justa causa”</quote> en los rescriptos que despacha, de ahí que el error o el engaño de los que piden o conceden las encomiendas, excluyendo la justa causa, suponga la falta o la interrupción de su voluntad.<note n="106" place="bottom" xml:id="footnote-022">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, n. 33; para las presunciones tiene interés el principio de que “la verdad todo lo vence” (cfr. Cod. Iust. 10.37.2, Dig. 1.18.6.1), base de la posibilidad de ir incluso contra las praesumptiones iuris et de iure.</note> La aceptación de una primera encomienda no implica renunciar a otra deferida más tarde <quote xml:lang="es-ES">“porque nunca estos derechos futuros admiten fácilmente estas presunciones y renunciaciones”</quote>;<note n="107" place="bottom" xml:id="footnote-021">Solórzano y Pereira, Política indiana, Libro III, Cap. 20: De la prohibición de suceder en una encomienda el que tiene otra…, n. 13.</note> del modo en que son usados aquí, la voces presunción y presumir (<quote xml:lang="es-ES">“mucho menos se ha de querer decir ni presumir…”</quote>) no son sino recursos léxicos para aludir a la dificultad inherente a la renuncia de derechos futuros,<note n="108" place="bottom" xml:id="footnote-020">Vid. Cuena Boy (2010) págs. 590-591.</note> y en cuanto tales recursos, no caben ni siquiera en la ancha categoría del razonamiento presuntivo. Sobre la posibilidad de suceder en la encomienda del cónyuge, aun tratándose de matrimonio putativo, la idea de que <quote xml:lang="es-ES">“en caso de duda, siempre habemos de presumir que en el uno y otro intervino la buena fe”</quote> es mera expresión de un principio jurídico general.<note n="109" place="bottom" xml:id="footnote-019">Solórzano y Pereira, Política indiana, Libro III, Cap. 23: Si la ley que llama a las mujeres a la sucesión de las encomiendas de sus maridos a falta de hijos…, n. 41.</note> </p>
+                <p>Las anteriores son expresiones del razonamiento presuntivo en sentido general, pero en <name type="person">Solórzano</name> encontramos también ejemplos de presunción y casos de aplicación de las reglas relativas a su utilización. Los virreyes y gobernadores no deben dar crédito a los memoriales y relaciones de méritos y servicios de los que concurren a pedir encomiendas, sino informarse de la verdad <quote xml:lang="es-ES">“como quienes están en parte donde todo lo tienen más cerca”</quote>; ello en virtud de la regla de que <quote xml:lang="es-ES">“por más vecinos está por ellos la presunción de que lo tendrán mejor conocido”</quote>.<note n="110" place="bottom" xml:id="footnote-018">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, nn. 25-26; la regla en cuestión resulta de X.2.23.7 y 8, Cod. Iust. 5.4.9 y Dig. 1.6.6, a lo que se añade la cita de Menoquio y Mascardo; cfr. Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 23: De praesumptionibus, n. 198 (pág. 321): “vicinus praesumitur scire, quae acciderunt in vicinia”.</note> Cuando constan en cédulas, rescriptos o privilegios muy antiguos y extendidos de <foreign xml:lang="la">motu proprio</foreign> por el príncipe, los méritos y servicios de quienes solicitan las <term xml:lang="es-ES">encomiendas</term> tienen a su favor <quote xml:lang="es-ES">“el transcurso de largo tiempo, que induce y trae consigo presunción de que todo se hizo y probó como convenía”</quote>;<note n="111" place="bottom" xml:id="footnote-017">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, n. 31.</note> a tenor de los textos que se citan,<note n="112" place="bottom" xml:id="footnote-016">Sobre todo Cod. Iust. 8.37.14 y 3.32.19.</note> esa presunción es <foreign xml:lang="la">iuris tantum</foreign>. La posibilidad de reforzar <quote xml:lang="es-ES">“con razones o conjeturas que lleven color de verdad”</quote> la prueba de méritos y servicios igualmente referidos en cédulas reales parece apuntar al brocardo <quote xml:lang="la">“quae non prosunt singula, cuncta juvant”</quote>.<note n="113" place="bottom" xml:id="footnote-015">Solórzano y Pereira, Política indiana, Libro III, Cap. 3: De la definición de las encomiendas…, n. 39; “sic probatur benemeritus eo ipso qui non probatur demeritus”, dice la glosa Sine dolo a X.2.25.13 citada en el n. 40.</note> La presunción regular de que las <term xml:lang="es-ES">encomiendas</term> se conceden a petición de parte cede ante la existencia de méritos y servicios previos de los que las obtienen, <quote xml:lang="es-ES">“porque entonces se presume que éstos movieron más al príncipe a hacer [la merced] que no la petición de parte”</quote>;<note n="114" place="bottom" xml:id="footnote-014">Solórzano y Pereira, Política indiana, Libro III, Cap. 13: Cómo se ha de dividir la encomienda…, n. 32; la base legal de la primera presunción se encuentra principalmente en VI.3.4.23.</note> la presencia de indicios que permiten presumir la concesión espontánea excluye la presunción de pedimento de parte indicada en primer lugar; se trata, por tanto, de una regla relativa al conflicto entre dos presunciones <foreign xml:lang="la">iuris tantum</foreign>. En contemplación de quién se concedió la encomienda, si del padre o del hijo, es cuestión en la que <quote xml:lang="es-ES">“se ha de andar por presunciones o conjeturas que se deben sacar de las personas, causas y circunstancias que precedieron a la concesión”</quote>;<note n="115" place="bottom" xml:id="footnote-013">Solórzano y Pereira, Política indiana, Libro III, Cap. 16: Si el padre puede gozar del usufructo de la encomienda que tiene su hijo…, n. 15; como texto mejor cita Dig. 5.2.19: (…) nec enim quae ex testamento adiit, quod putat valere, repudiare legitimam hereditatem videtur, quam quidem nescit sibi deferri: cum et hi qui sciant ius suum, eligentes id quod putant sibi competere, non amittant.</note> lo que vemos aquí es la idea común de <rs xml:lang="la">praesumptio iudicis</rs> referida a un problema concreto. Ante la indicación <quote xml:lang="es-ES">“por si algo les fuere a cargo, o para descargo de mi conciencia”</quote> con la que los encomenderos suelen motivar las mandas que dejan a los indios, <quote xml:lang="es-ES">“se ha de presumir”</quote> en caso de duda que el legado no supone confesión y satisfacción de deuda precisa y obligatoria, sino que se ha dejado <quote xml:lang="es-ES">“por causa y obra pía, por Dios y para bien de su alma”</quote>;<note n="116" place="bottom" xml:id="footnote-012">Solórzano y Pereira, Política indiana, Libro III, Cap. 26: De la segunda carga de las encomiendas y encomenderos…, n. 48.</note> aunque la referida motivación admite las dos interpretaciones, en principio se impone aquella <quote xml:lang="la">“per quam animae magis consulitur”</quote>, o bien, si se quiere apreciar un conflicto entre dos presunciones, se sigue la regla que prescribe interpretar <foreign xml:lang="la">in meliorem partem ea facta, quae dubium est quo animo fiant</foreign>; sea como fuere, la presunción ha de ser <foreign xml:lang="la">hominis</foreign> o <foreign xml:lang="la">iudicis</foreign>. Por una vez en relación directa y explícita con la prueba en el proceso, <quote xml:lang="es-ES">“la presunción de que todas las cosas se presumen libres”</quote> está contra los poseedores de <term xml:lang="es-ES">encomiendas</term> que no exhiben sus títulos;<note n="117" place="bottom" xml:id="footnote-011">Solórzano y Pereira, Política indiana, Libro III, Cap. 30: De los pleitos y despojos de las encomiendas…, n. 25, con la cita de Menoquio y Mascardo; se trata de una de las reglas recoginas por Murillo Velarde, Cursus Iuris Canonici, Libro II, Tit. 23: De praesumptionibus, n. 199 (pág. 322): “quilibet praesumitur liber, nisi probetur servus; quod et in praediis locum habet”, basada en Cod. Iust. 3.34.9 y 10.</note> como es evidente se trata de una presunción <foreign xml:lang="la">iuris tantum</foreign>.</p>
+                <p>Al margen de los <rs xml:lang="es-ES">indios</rs> y las encomiendas, en materia eclesiástica y del real patronato <name type="person">Solórzano</name> señala, siguiendo a <name type="person">Menoquio</name>, que <quote xml:lang="es-ES">“aun las presunciones que llamamos ‘de hecho y ‘derecho’ ceden a la verdad si ésta se puede probar por deposición de cinco testigos y aun de dos si son fidedignos, y más si con ellos concurren otros indicios y presunciones contrarias”</quote>;<note n="118" place="bottom" xml:id="footnote-010">Solórzano y Pereira, Política indiana, Libro IV, Cap. 10: Si pueden disponer los prelados de las Indias… de las rentas y bienes adquiridos en sus obispados…, n. 39.</note> se trata de una valiosa afirmación que concuerda plenamente con la doctrina general de las presunciones. Con ella se conforma asimismo el rechazo de los <quote xml:lang="es-ES">“leves indicios”</quote> y las <quote xml:lang="es-ES">“livianas sospechas”</quote> como base para proceder, los tribunales de la inquisición, contra personas nobles y honestas;<note n="119" place="bottom" xml:id="footnote-009">Solórzano y Pereira, Política indiana, Libro IV, Cap. 24: Del origen, jurisdicción y especialidades de los tribunales de la Santa Inquisición de las Indias…, n. 33.</note> y asimismo el recato que deben observar los alcaldes del crimen <quote xml:lang="es-ES">“en juzgar por indicios y presunciones y raros ejemplos”</quote>, sobre todo cuando se trata de imponer penas capitales,<note n="120" place="bottom" xml:id="footnote-008">Solórzano y Pereira, Política indiana, Libro V, Cap. 5: De los alcaldes del crimen de las Audiencias de las Indias…, n. 29.</note> ya que incluso la presunción violentísima puede no ser verdadera. Por último, de los oficiales de la hacienda real <quote xml:lang="es-ES">“siempre se presume que si enriquecen es de lo que han usurpado y defraudado de ella”</quote>, lo que no puede ser sino una <rs xml:lang="la">praesumptio iuris tantum</rs> consistente en partir del indicio o hecho probado del enriquecimiento para inferir de él el hecho presunto del fraude, ello en atención a <quote xml:lang="es-ES">“la gran mano que tienen estos oficiales en la Real Hacienda”</quote>.<note n="121" place="bottom" xml:id="footnote-007">Solórzano y Pereira, Política indiana, Libro VI, Cap. 15: De los tesoros, huacas o enterramientos que se hallan en las Indias…, n. 28; avalada por muchos autores entre los cuales Menoquio, esta doctrina se contiene en la glosa 6 a facultas en Cod. Iust. 10.1.7 pr.</note> </p>
+            </div>
+            <div n="7">
+                <head>7. Balance historiográfico</head>
+                <p>En el momento de ofrecer un pequeño balance historiográfico sobre las presunciones, lo primero que hay que destacar es la falta de toda referencia bibliográfica sobre su presencia y utilización, no ya sólo en el derecho canónico indiano sino en el derecho indiano en su conjunto. De <name type="person">Hevia Bolaños</name> y <name type="person">Solórzano Pereira</name> a <name type="person">Murillo Velarde</name> y <name type="person">Elizondo</name>, tampoco los juristas nos informan de ninguna transformación que aquella institución haya podido experimentar al contacto con las realidades de <name type="place">América</name> y <name type="place">Filipinas</name>. Y lo mismo se constata, por lo que respecta a la legislación, en los terceros <name type="org">Concilios Provinciales Limense y Mexicano</name>, donde apenas hemos podido dar con una referencia al juramento de los <rs xml:lang="es-ES">indios</rs> que puede enlazar con una de las (falsas) presunciones apuntadas por <name type="person">Peña Montenegro</name>.<note n="122" place="bottom" xml:id="footnote-006">Vid. supra, nt. 88 y texto correspondiente.</note> </p>
+                <p>El estado de cosas descrito se refleja, con toda claridad, en un estudio sobre la formación del derecho procesal indiano en el que su autor, al ocuparse de la prueba, ni siquiera menciona las presunciones.<note n="123" place="bottom" xml:id="footnote-005">Levaggi (2003), págs. 254-256.</note> Y así como todo ello ha desaconsejado limitar al derecho canónico el panorama del uso de las presunciones y el razonamiento presuntivo en <name type="place">Indias </name> del apartado precedente, ahora, en el momento del balance historiográfico, se impone la necesidad de referirlo al derecho canónico sin aposición ni determinante geográfico de ninguna clase.</p>
+                <p>Situando el punto de partida en los años cincuenta del siglo pasado, el itinerario bibliográfico del tema aparece jalonado por cuatro hitos principales constituidos por sendas monografías de <name type="person">Motzenbäcker</name>(<date when="1958">1958</date>), <name type="person">Labandeira</name>(<date when="1967">1967</date>), <name type="person">Rosoni</name>(<date when="1995">1995</date>) y <name type="person">Hubert</name>(<date when="2009">2009</date>). El libro de Motzenbäcker es un voluminoso estudio de la <rs xml:lang="la">praesumptio iuris</rs>(Rechtsvermutung) en el derecho canónico. Su primera parte, sobre la historia de ese concepto,<note n="124" place="bottom" xml:id="footnote-004">Motezenbäcker (1958), págs. 1-231.</note> se articula en tres secciones que cubren respectivamente el derecho romano del <bibl type="book">Corpus Iuris Civilis</bibl>, las doctrinas de los glosadores (legistas, decretistas y decretalistas) y las de la ciencia jurídica civilista y canonista desde los postglosadores hasta el <bibl type="book">Codex Iuris Canonici</bibl> de <date when="1917">1917</date>. Siendo muy valiosa y abundante, la información ofrecida en esta obra se circunscribe mayormente a la <rs xml:lang="la">praesumptio iuris</rs>, relegando a segundo plano todo lo que no conduce a la elucidación de ese concepto. De todos modos, pese a su limitación temática, la investigación de Motzenbäcker ha ejercido una influencia muy considerable y sigue siendo una referencia inexcusable en cualquier estudio, histórico o dogmático, sobre las presunciones.</p>
+                <p>No obstante, su corta extensión, de apenas doscientas páginas, el libro de Labandeira acierta a dar una visión bastante completa de las presunciones en derecho canónico. El estudio histórico-jurídico se concentra en el primer capítulo, pero los datos históricos nutren también el discurso, relativamente novedoso, dirigido a delimitar la presunción propiamente dicha –esto es, la presunción-medio de prueba– frente a ciertos fenómenos encuadrados en lo que el propio autor denomina razonamiento presuntivo, como son, entre otros, las ficciones, las presunciones vulgares o impropias y las máximas de experiencia, a lo que aún puede añadirse la diferenciación de las presunciones respecto de las normas interpretativas. La influencia del estudio de Labandeira perdura merecidamente hasta la actualidad.</p>
+                <p>El estudio de Rosoni desborda el tema expuesto en el presente artículo. Si ello no obstante lo incluimos en el balance historiográfico, la razón principal es el amplio capítulo que dedica a la prueba por presunciones,<note n="125" place="bottom" xml:id="footnote-003">El cap. III de la segunda parte: Rosoni (1995), págs. 97-191.</note> asunto de importancia medular en esta indagación sobre la prueba indiciaria en el proceso penal que abarca desde el Medievo hasta las primeras décadas del siglo XIX. La obra se caracteriza especialmente por el seguimiento de la influencia de las doctrinas filosóficas, lógicas y matemáticas de cada momento histórico en el campo probatorio y, dentro de él, en la consideración de los indicios; en este sentido, ofrece una estimable perspectiva cultural que viene a completar el enfoque histórico-jurídico.</p>
+                <p>Por último, así como Motzenbäker centró su estudio en la <rs xml:lang="la">praesumptio iuris</rs>, <name type="person">Hubert</name> aplica el suyo a las presunciones judiciales permanentes (ständige richterlicher Vermutungen) nacidas de la jurisprudencia reciente de la <bibl type="book">Rota Romana</bibl>, a fin de explicar el desarrollo de las mismas y de aclarar su relación con las <rs xml:lang="la">praesumptiones hominis</rs> o <foreign xml:lang="la">iudicis</foreign> de los tribunales inferiores. El interés historiográfico de esta obra se concentra en su primera parte dedicada a la <rs xml:lang="la">praesumptio hominis</rs>, concretamente en el capítulo inicial. En él se recorre eficazmente la historia de la institución desde sus raíces en la retórica greco-romana hasta la codificación de <date when="1917">1917</date>; como divisiones o etapas intermedias figuran el derecho romano clásico y justinianeo, el Corpus Iuris Canonici, los legistas o civilistas y los manualistas. Quien haya leído el segundo apartado de este artículo habrá podido percibir lo mucho que debe al capítulo de <name type="person">Hubert</name>.</p>
+                <p>Al lado de las publicaciones monográficas cabe recordar las contribuciones de <name type="person">Reggi</name> y <name type="person">Campitelli</name> a la voz <quote xml:lang="la">“Presunzione”</quote> de la <bibl type="book">Enciclopedia del Dirittto</bibl>, fechada en <date when="1986">1986</date>; tomadas en conjunto –con el añadido, si se quiere, de la de <name type="person">Scavo Lombardo</name>–, esas contribuciones facilitan en pocas páginas una eficiente introducción general a la historia de las presunciones. Más específicos y muy bien documentados, si bien de menor alcance cronológico, son el trabajo de <name type="person">Gouron</name>(<date when="1999">1999</date>) acerca de la teoría de las presunciones en los primeros glosadores y el de <name type="person">Fiori</name>(<date when="2009">2009</date>) sobre las clasificaciones de las presunciones elaboradas por la canonística medieval.<note n="126" place="bottom" xml:id="footnote-002">Más allá de su tema concreto, el estudio de Fiori abunda en observaciones que interesan de una manera general al tema de las presunciones; de la misma autora se debe señalar la segunda sección del cap. 14 de su libro sobre el juramento de inocencia en el proceso canónico (Praesumptio probabilis e purgatio. La genesi della classificazione canonistica delle presunzioni): Fiori (2013), págs. 428-446.</note> Para el enfoque histórico, el artículo de <name type="person">Pedrelli</name>(<date when="2002">2002</date>) sobre las presunciones judiciales resulta claramente insuficiente,<note n="127" place="bottom" xml:id="footnote-001">No he podido ver la monografía anterior de la misma autora: Pedrelli (1999).</note> mientras que, en su brevedad, el escrito de ­<name type="person">Schmoeckel</name>(<date when="2016">2016</date>) es muy interesante desde esa misma perspectiva.<note n="128" place="bottom" xml:id="footnote-000">El texto de Schmoeckel se plantea a la vez como recensión de Richard H. Helmholz y W. David H. Sellar (eds.), The Law of Presumptions: Essays in Comparative Legal History, Berlin, Duncker &amp; Humblot, 2009.</note> </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <p>Bibliografía</p>
+
+
+                <listBibl>
+                    <head type="head_bibl">Fuentes Primarias del Corpus</head>
+                    <lb/>
+                    <biblStruct>
+                        <monogr>
+                            <author>Alfonso de Veracruz</author>
+                            <title level="m">Speculum Conivgiorum, Salamanticae, excudebat Andreas à Portonariis S.C</title>
+                            <imprint>
+                                <publisher>M. Typographus</publisher>
+                                <date>1562</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Alonso de la Peña Montenegro</author>
+                            <title level="m">Itinerario para Parochos de Indios</title>
+                            <imprint>
+                                <publisher>por Ioseph Fernández de Buendía</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>1668</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Concilium Limense celebratum anno 1583 sub Gregorio XIII...: iussu catholici regis Hispaniarum atq[ue] Indiarum</title>
+                            <editor>Philippi Secundi</editor>
+                            <imprint>
+                                <pubPlace>Matriti</pubPlace>
+                                <publisher>Ex officina Petri Madrigalis Typographi</publisher>
+                                <date>1591</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Gaspar de Villarroel</author>
+                            <title level="s">Gobierno Eclesiástico-Pacífico y unión de los dos cuchillos pontificio y regio</title>
+                            <imprint>
+                                <publisher>en la oficina de Antonio Marín</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>1738</date>
+                            </imprint>
+                            <extent>2 Vol</extent>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Juan de Hevia Bolaños</author>
+                            <title level="m">Curia Philipica</title>
+                            <imprint>
+                                <publisher>Por Ramón Ruiz, de la Imprenta de Ulloa</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>1740</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Juan de Solórzano Pereira</author>
+                            <title level="m">Política Indiana</title>
+                            <imprint>
+                                <publisher>por Diego Díaz de la Carrera</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>1647</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Martín de Azpilcueta</author>
+                            <title level="m">Manual de confessores y penitentes</title>
+                            <editor>en casa de Andrea de Portonariis</editor>
+                            <imprint>
+                                <publisher>Impresor de S. C. Magestad</publisher>
+                                <pubPlace>Salamanca</pubPlace>
+                                <date>1556</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Pedro Murillo Velarde</author>
+                            <title level="m">Cursus Iuris Canonici, Hispani, et Indici</title>
+                            <imprint>
+                                <publisher>ex typographia Emmanuelis Femandez</publisher>
+                                <pubPlace>Matriti</pubPlace>
+                                <date>1743</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Sanctum prouinciale concilium Mexici celebratum anno dni millessimo quingentessimo octuagessimo quinto</title>
+                            <imprint>
+                                <publisher>apud Ioannem Ruiz</publisher>
+                                <pubPlace>Excudebatq[ue] Mexici</pubPlace>
+                                <date>1622</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+                <lb/>
+                <listBibl>
+                    <head type="head_bibl">Fuentes Primarias Adicionales </head>
+                    <biblStruct>
+                        <monogr>
+                            <author>Anacletus Reiffenstuel</author>
+                            <title level="s">Jus Canonicum Universum</title>
+                            <imprint>
+                                <publisher>Joannis Hermanni à Gelder</publisher>
+                                <pubPlace>Monachij</pubPlace>
+                                <date>1702-1714</date>
+                            </imprint>
+                            <extent>5 tomos</extent>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Andreas Alciatus</author>
+                            <title level="m">Tractatus de praesumptionibus</title>
+                            <imprint>
+                                <publisher>apud haeredes Iacobi Iuntae</publisher>
+                                <pubPlace>Lugduni</pubPlace>
+                                <date>1551</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Antonius Dadinus Alteserra</author>
+                            <title level="m">De fictionibus iuris tractatus quinque</title>
+                            <imprint>
+                                <publisher>apud Petrum Lamy</publisher>
+                                <pubPlace>Parisiis</pubPlace>
+                                <date>1659</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Emanuel Gonzalez Tellez</author>
+                            <title level="m">Commentaria perpetua in singulos textus V. librorum decretalium Greg. IX</title>
+                            <imprint>
+                                <publisher>sumptibus Laurentii Arnaud &amp; Petri Borde</publisher>
+                                <pubPlace>Lugduni</pubPlace>
+                                <date>1673</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Felinus Sandaeus</author>
+                            <title level="m">Super secundi libri Decretalium titulis: de probationibus, de testibus, de testibus cogendis, de fide instrumentorum, de praesumptionibus</title>
+                            <imprint>
+                                <publisher>Nicolaus de Benedictis et socii</publisher>
+                                <pubPlace>Lugduni</pubPlace>
+                                <date>1499</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Fernando Vázquez de Menchaca</author>
+                            <title level="m">Illustrium controversiarum aliarumque usu frequentium libri sex, in duas partes divisi</title>
+                            <imprint>
+                                <publisher>sumptibus Joannis Baptistae Schönwetteri</publisher>
+                                <pubPlace>Francofurti</pubPlace>
+                                <date>1668</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Francis Xavier Schmalzgrueber</author>
+                            <title level="m">Jus Ecclesiaticum Universum</title>
+                            <editor>Ingoldstadi</editor>
+                            <imprint>
+                                <pubPlace>De la Haye</pubPlace>
+                                <date>1711-1718</date>
+                            </imprint>
+                            <extent>5 tomos</extent>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Francisco Antonio de Elizondo</author>
+                            <title level="m">Práctica universal forense de los tribunales superiores de España, y de las Indias</title>
+                            <imprint>
+                                <publisher>por Joaquín Ibarra</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>1769-1788</date>
+                            </imprint>
+                            <extent>8 tomos</extent>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Jacobus Menochius</author>
+                            <title level="m">De praesumptionibus, coniecturis, signis et indiciis commentaria</title>
+                            <imprint>
+                                <publisher>ex officina F. de Franciscis</publisher>
+                                <pubPlace>Venetiis</pubPlace>
+                                <date>1587-1590</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Josephus Mascardus</author>
+                            <title level="m">De probationibus</title>
+                            <imprint>
+                                <publisher>impensis Sigis. Feyerabendij</publisher>
+                                <pubPlace>Francofurti ad Moenum</pubPlace>
+                                <date>1585-1588</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Martín de Azpilcueta</author>
+                            <title level="m">Comentario resolutorio de… cambios, sobre el principio del capitulo final de usuris</title>
+                            <imprint>
+                                <publisher>en casa de Claudio Bornat</publisher>
+                                <pubPlace>Barcelona</pubPlace>
+                                <date>1567</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Tancredus Bononiensis</author>
+                            <title level="m">Ordo iudiciarius</title>
+                            <date>1216</date>
+                        </analytic>
+                        <monogr>
+                            <editor>ed. Friedrich Christian Bergmann</editor>
+                            <title level="s">Pilii, Tancredi, Gratiae Libri de iudiciorum ordine</title>
+                            <note>reimpr. Aalen, Scientia Verlag, 1965.</note>
+                            <imprint>
+                                <date>1842</date>
+                                <pubPlace>Göttingen</pubPlace>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Tomás Sánchez</author>
+                            <title level="m">Disputationum de sancto matrimonii sacramento libri decem</title>
+                            <imprint>
+                                <publisher>apud Josephum Pavonem</publisher>
+                                <pubPlace>Genevae</pubPlace>
+                                <date>1602</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+                <lb/>
+                <listBibl>
+                    <head type="head_bibl">Fuentes Secundarias </head>
+                    <biblStruct>
+
+                        <monogr>
+                            <author>Aron, G</author>
+                            <title level="a">Les présomptions “juris et de jure” et leur origine historique</title>
+                            <imprint>
+                                <date>1896</date>
+                            </imprint>
+                        </monogr>
+                        <series> <title level="s">Nouvelle revue histo­rique de droit français et étranger</title> <biblScope unit="volume">vol. 20</biblScope> <biblScope unit="page">págs. 500-513</biblScope></series>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Campitelli, Adriana</author>
+                            <title level="a">Presunzione (diritto intermedio)</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Milano</pubPlace>
+                                <date>1986</date>
+                            </imprint>
+                        </monogr>
+                        <series> <title level="s">Enciclopedia del Diritto</title> <biblScope unit="volume">vol. 35</biblScope> <biblScope unit="page">págs. 260-264</biblScope></series>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Cuena Boy, Francisco</author>
+                            <date>2010</date>
+                            <title level="a">Las renuncias de una novicia: comentario de un testamento</title>
+                            <editor>Guzmán Brito, Alejandro (ed.)</editor>
+                        </analytic>
+                        <monogr>
+                            <title level="m">El Derecho de las Indias Occidentales y su pervivencia en los Derechos patrios de América. Actas del XVI Congreso del Instituto Internacional de Historia del Derecho Indiano</title>
+                            <imprint>
+                                <publisher>Ediciones Universitarias</publisher>
+                                <pubPlace>Valparaíso</pubPlace>
+                                <date>2010</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 2</biblScope>
+                            <biblScope unit="page">págs. 585-595</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Cuena Boy, Francisco</author>
+                            <date>2017</date>
+                            <title level="a">Prestaciones de la dogmática: algunos ejemplos de Alonso de la Peña Montenegro</title>
+                            <editor>Duve, Thomas (coord.)</editor>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Actas del XIX Congreso del Instituto Internacional de Historia del Derecho Indiano</title>
+                            <imprint>
+                                <publisher>Dykinson</publisher>
+                                <pubPlace>Berlin</pubPlace>
+                                <date>2016</date>
+                            </imprint>
+                            <biblScope unit="page">págs. 565-588</biblScope>
+                            <biblScope unit="volume">vol. 1</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Dellaferrera, Nelson C</author>
+                            <date>2002</date>
+                            <title level="a">La justicia penal eclesiástica en Córdoba del Tucumán durante el siglo XVIII</title>
+                            <editor>Barrios Pintado, Feliciano (coord.)</editor>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Derecho y administración pública en las Indias hispánicas. Actas del XII congreso Internacional de Historia del derecho indiano</title>
+                            <note>(Toledo, 19 a 21 de octubre de 1998)</note>
+                            <imprint>
+                                <publisher>Ediciones de la Universidad de Castilla-La Mancha</publisher>
+                                <pubPlace>Cuenca</pubPlace>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Fiori, Antonia</author>
+                            <date>2009</date>
+                            <title level="a">“Praesumptio violenta” o “iuris et de iure”? Qualche annotazione sul contributo canonistico alla teoria delle presunzioni</title>
+                            <editor>Condorelli, Orazio et al. (eds.)</editor>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Zivil- und Zivilprozessrecht</title>
+                            <imprint>
+                                <pubPlace>Köln-Weimar-Wien</pubPlace>
+                                <pubPlace>Böhlau</pubPlace>
+                            </imprint>
+                        </monogr>
+                        <series> <title level="s">Der Einfluss der Kanonistik auf die europäische Rechtskultur</title> <biblScope unit="volume">Band I</biblScope> <biblScope unit="page">págs. 75-106</biblScope></series>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Fiori, Antonia</author>
+                            <title level="m">Il giuramento di innocenza nel processo canonico medievale: storia e disciplina della “purgatio canonica”</title>
+                            <imprint>
+                                <publisher>Vittorio Klostermann</publisher>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <date>2013</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Gouron, André</author>
+                            <title level="m">Aux racines de la théorie des présomptions, en: Rivista internazionale di diritto commune</title>
+                            <imprint>
+                                <date>1999</date>
+                            </imprint>
+                            <biblScope unit="page">págs. 99-109</biblScope>
+                            <biblScope unit="volume">vol. 1</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Hohmann, Hanns</author>
+                            <date>1999</date>
+                            <title level="a">Presumption in legal argumentation: from antiquity to the middle ages</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 3rd OSSA Conference on Argumentation</title>
+                            <ref target="https://scholar.uwindsor.ca/ossaarchive/OSSA3/papersandcommentaries/28"/>
+                            <imprint>
+                                <publisher>University of Windsor</publisher>
+                                <pubPlace>Windsor</pubPlace>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Hubert, Patrick</author>
+                            <title level="m">De praesumptionibus iurisprudentiae. Zur Entwicklung ständiger richterlicher Vermutungen in der neueren Rota-Rechtsprechung und deren Anwendung an untergeordneten Gerichten</title>
+                            <imprint>
+                                <publisher>Pontificia Università Gregoriana</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date>2009</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Kaser, Max-Hackl, Karl</author>
+                            <title level="m">Das römische Zivilprozessrecht</title>
+                            <edition>2ª ed</edition>
+                            <imprint>
+                                <publisher>C. H. Beck</publisher>
+                                <pubPlace>München</pubPlace>
+                                <date>1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Labandeira, Eduardo</author>
+                            <title level="m">Las presunciones en derecho canónico</title>
+                            <imprint>
+                                <publisher>Rialp</publisher>
+                                <pubPlace>Pamplona</pubPlace>
+                                <date>1967</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Levaggi, Abelardo</author>
+                            <title level="a">La formación del derecho procesal indiano y su influencia en los derechos modernos</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Boletín del Instituto Riva Agüero</title>
+                            <imprint>
+                                <date>2003</date>
+                            </imprint>
+                            <biblScope unit="page">págs. 247-263</biblScope>
+                            <biblScope unit="volume">vol. 30</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Martínez de Morentín Llamas, M. Lourdes</author>
+                            <title level="m">Régimen jurídico de las presunciones</title>
+                            <imprint>
+                                <publisher>Dykinson</publisher>
+                                <pubPlace>Madrid</pubPlace>
+                                <date>2007</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Miguélez Domínguez, Lorenzo</author>
+                            <title level="a">El “favor iuris” en el matrimonio</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Revista española de derecho canónico</title>
+                            <imprint>
+                                <date>1948</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 3</biblScope>
+                            <biblScope unit="page">págs. 353-409</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Motzenbäcker, Rudolf</author>
+                            <title level="m">Die Rechtsvermutung im kanonischen Recht</title>
+                            <imprint>
+                                <publisher>Kommissions­verlag Karl Zink</publisher>
+                                <pubPlace>München</pubPlace>
+                                <date>1958</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Novoa, Mauricio</author>
+                            <title level="m">Derecho romano y el indio americano en Solórzano</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Boletín del Instituto Riva-Agüero</title>
+                            <imprint>
+                                <date>1999</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 26</biblScope>
+                            <biblScope unit="page">págs. 253-272</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Oesterle, Gerardus</author>
+                            <title level="a">De praesumptionibus in iure matrimoniali</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Revista española de derecho canónico</title>
+                            <imprint>
+                                <date>1948</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 3</biblScope>
+                            <biblScope unit="page">págs. 411-455</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Oesterle, Gerardus</author>
+                            <title level="m">De coniecturis in iure canonico</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Revista española de derecho canónico</title>
+                            <imprint>
+                                <date>1959</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 14</biblScope>
+                            <biblScope unit="page">págs. 393-430</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Pedrelli, Daniela</author>
+                            <title level="m">Le presunzioni giudiziali (estratto della Tesi)</title>
+                            <imprint>
+                                <publisher>Pontificia Università Lateranense</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date>1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Pedrelli, Daniela</author>
+                            <title level="a">Le presunzioni giudiziali nel diritto canonico. Breve excursus storico dell’istituto della presunzione giudiziale e suo uso nella giurisprudenza rotale</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Il diritto ecclesiastico</title>
+                            <imprint>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 113/2</biblScope>
+                            <biblScope unit="page">págs. 715-730</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Reggi, Roberto</author>
+                            <title level="a">Presunzione (diritto romano)</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Enciclopedia del Diritto</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Milano</pubPlace>
+                                <date>1986</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 35</biblScope>
+                            <biblScope unit="page">págs. 255-260</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Rosoni, Isabella</author>
+                            <title level="m">Quae singula non prosunt collecta iuvant. La teoria della prova indiziaria nell’età medievale e moderna</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Milano</pubPlace>
+                                <date>1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Sánchez-Gil, Antonio S.</author>
+                            <title level="m">La presunzione di validità dell’atto giuridico nel diritto canonico</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Napoli</pubPlace>
+                                <date>2006</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Scacchetti, Maria Grazia</author>
+                            <title level="m">La presunzione Muciana</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Milano</pubPlace>
+                                <date>2002</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Scavo Lombardo, Eugenia</author>
+                            <title level="a">Presunzione (diritto canonico)</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Enciclopedia del Diritto</title>
+                            <imprint>
+                                <publisher>Giuffrè</publisher>
+                                <pubPlace>Milano</pubPlace>
+                                <date>1986</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 35</biblScope>
+                            <biblScope unit="page">págs. 317-321</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Schmoeckel, Mathias</author>
+                            <title level="a">Hinweise zur Geschichte der Präsumptionen</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Zeitschrift der Savigny Stiftung für Rechtsgeschichte</title>
+                            <imprint>
+                                <publisher>Kanonistische Abteilung</publisher>
+                                <date>2016</date>
+                            </imprint>
+                            <biblScope unit="volume">vol. 102</biblScope>
+                            <biblScope unit="page">págs. 502-509</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>Schröder, Jan</author>
+                            <title level="m">Recht als Wissenschaft. Geschichte der juristischen Methode vom Humanismus bis zur historischen Schule</title>
+                            <imprint>
+                                <publisher>C. H. Beck</publisher>
+                                <pubPlace>München</pubPlace>
+                                <date>2001</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
