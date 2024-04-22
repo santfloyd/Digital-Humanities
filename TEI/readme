@@ -1,1 +1,4 @@
-
+In this repository I divide the product in two, the first directory shows some HTML files from a project where my duties were to design a workflow to successfully 
+code articles from their html presentation to a completly coded file in TEI standards to be proccessed and published by Max Planck Institute in Germany. 
+For the transformation I developed a semiautomatic workflow to identify relevant terms throughout the text by using regular expresions, color coded and open source tools
+and then code each term in its respective XML tag 
